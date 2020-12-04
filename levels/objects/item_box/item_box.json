@@ -1,0 +1,141 @@
+{ "frames": {
+   "item_box 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 2000
+   },
+   "item_box 1.aseprite": {
+    "frame": { "x": 32, "y": 0, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 100
+   },
+   "item_box 2.aseprite": {
+    "frame": { "x": 64, "y": 0, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 100
+   },
+   "item_box 3.aseprite": {
+    "frame": { "x": 96, "y": 0, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 100
+   },
+   "item_box 4.aseprite": {
+    "frame": { "x": 0, "y": 23, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 100
+   },
+   "item_box 5.aseprite": {
+    "frame": { "x": 32, "y": 23, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 100
+   },
+   "item_box 6.aseprite": {
+    "frame": { "x": 64, "y": 23, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 100
+   },
+   "item_box 7.aseprite": {
+    "frame": { "x": 96, "y": 23, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 100
+   },
+   "item_box 8.aseprite": {
+    "frame": { "x": 0, "y": 46, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 100
+   },
+   "item_box 9.aseprite": {
+    "frame": { "x": 32, "y": 46, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 100
+   },
+   "item_box 10.aseprite": {
+    "frame": { "x": 64, "y": 46, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 100
+   },
+   "item_box 11.aseprite": {
+    "frame": { "x": 96, "y": 46, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 100
+   },
+   "item_box 12.aseprite": {
+    "frame": { "x": 0, "y": 69, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 100
+   },
+   "item_box 13.aseprite": {
+    "frame": { "x": 32, "y": 69, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 100
+   },
+   "item_box 14.aseprite": {
+    "frame": { "x": 64, "y": 69, "w": 32, "h": 23 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 23 },
+    "sourceSize": { "w": 32, "h": 23 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.12.1",
+  "image": "item_box.png",
+  "format": "RGBA8888",
+  "size": { "w": 128, "h": 128 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Closed", "from": 0, "to": 5, "direction": "forward" },
+   { "name": "Open", "from": 6, "to": 14, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 2", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

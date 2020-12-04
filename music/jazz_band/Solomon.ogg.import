@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Solomon.ogg-53d74534acb6e168dc5fd3134b552287.oggstr"
+
+[deps]
+
+source_file="res://music/jazz_band/Solomon.ogg"
+dest_files=[ "res://.import/Solomon.ogg-53d74534acb6e168dc5fd3134b552287.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=87.0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/subway.ogg-4685ead378d29e4a9a0bcb69bc3f213b.oggstr"
+
+[deps]
+
+source_file="res://music/jazz_band/subway.ogg"
+dest_files=[ "res://.import/subway.ogg-4685ead378d29e4a9a0bcb69bc3f213b.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=96.0

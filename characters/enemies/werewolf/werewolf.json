@@ -1,0 +1,503 @@
+{ "frames": {
+   "werewolf 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 1.aseprite": {
+    "frame": { "x": 66, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 2.aseprite": {
+    "frame": { "x": 132, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 3.aseprite": {
+    "frame": { "x": 198, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 4.aseprite": {
+    "frame": { "x": 264, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 5.aseprite": {
+    "frame": { "x": 330, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 6.aseprite": {
+    "frame": { "x": 396, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 7.aseprite": {
+    "frame": { "x": 462, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 8.aseprite": {
+    "frame": { "x": 528, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 9.aseprite": {
+    "frame": { "x": 594, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 10.aseprite": {
+    "frame": { "x": 660, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 11.aseprite": {
+    "frame": { "x": 726, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 12.aseprite": {
+    "frame": { "x": 792, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 13.aseprite": {
+    "frame": { "x": 858, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 14.aseprite": {
+    "frame": { "x": 924, "y": 0, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 15.aseprite": {
+    "frame": { "x": 0, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 16.aseprite": {
+    "frame": { "x": 66, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 17.aseprite": {
+    "frame": { "x": 132, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 18.aseprite": {
+    "frame": { "x": 198, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 19.aseprite": {
+    "frame": { "x": 264, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 20.aseprite": {
+    "frame": { "x": 330, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 21.aseprite": {
+    "frame": { "x": 396, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 22.aseprite": {
+    "frame": { "x": 462, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 23.aseprite": {
+    "frame": { "x": 528, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 24.aseprite": {
+    "frame": { "x": 594, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 25.aseprite": {
+    "frame": { "x": 660, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 26.aseprite": {
+    "frame": { "x": 726, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 27.aseprite": {
+    "frame": { "x": 792, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 28.aseprite": {
+    "frame": { "x": 858, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 29.aseprite": {
+    "frame": { "x": 924, "y": 63, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 30.aseprite": {
+    "frame": { "x": 0, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 31.aseprite": {
+    "frame": { "x": 66, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 32.aseprite": {
+    "frame": { "x": 132, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 33.aseprite": {
+    "frame": { "x": 198, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 34.aseprite": {
+    "frame": { "x": 264, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 35.aseprite": {
+    "frame": { "x": 330, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 36.aseprite": {
+    "frame": { "x": 396, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 37.aseprite": {
+    "frame": { "x": 462, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 38.aseprite": {
+    "frame": { "x": 528, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 39.aseprite": {
+    "frame": { "x": 594, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 40.aseprite": {
+    "frame": { "x": 660, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 41.aseprite": {
+    "frame": { "x": 726, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 42.aseprite": {
+    "frame": { "x": 792, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 43.aseprite": {
+    "frame": { "x": 858, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 44.aseprite": {
+    "frame": { "x": 924, "y": 126, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 45.aseprite": {
+    "frame": { "x": 0, "y": 189, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 46.aseprite": {
+    "frame": { "x": 66, "y": 189, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 47.aseprite": {
+    "frame": { "x": 132, "y": 189, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 48.aseprite": {
+    "frame": { "x": 198, "y": 189, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 49.aseprite": {
+    "frame": { "x": 264, "y": 189, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 50.aseprite": {
+    "frame": { "x": 330, "y": 189, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 51.aseprite": {
+    "frame": { "x": 396, "y": 189, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 52.aseprite": {
+    "frame": { "x": 462, "y": 189, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 53.aseprite": {
+    "frame": { "x": 528, "y": 189, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 54.aseprite": {
+    "frame": { "x": 594, "y": 189, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 55.aseprite": {
+    "frame": { "x": 660, "y": 189, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 56.aseprite": {
+    "frame": { "x": 726, "y": 189, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 57.aseprite": {
+    "frame": { "x": 792, "y": 189, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   },
+   "werewolf 58.aseprite": {
+    "frame": { "x": 858, "y": 189, "w": 66, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 66, "h": 63 },
+    "sourceSize": { "w": 66, "h": 63 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.12.1",
+  "image": "werewolf.png",
+  "format": "RGBA8888",
+  "size": { "w": 1024, "h": 256 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "SoldierIdle", "from": 0, "to": 0, "direction": "forward" },
+   { "name": "Transform", "from": 1, "to": 15, "direction": "forward" },
+   { "name": "Roar", "from": 16, "to": 40, "direction": "forward" },
+   { "name": "Idle", "from": 41, "to": 41, "direction": "forward" },
+   { "name": "Run", "from": 42, "to": 45, "direction": "forward" },
+   { "name": "AttackRecovery", "from": 46, "to": 52, "direction": "forward" },
+   { "name": "Attack", "from": 53, "to": 58, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "energy", "opacity": 255, "blendMode": "normal" },
+   { "name": "back_arm", "opacity": 255, "blendMode": "normal" },
+   { "name": "back_leg", "opacity": 255, "blendMode": "normal" },
+   { "name": "body", "opacity": 255, "blendMode": "normal" },
+   { "name": "front_arm", "opacity": 255, "blendMode": "normal" },
+   { "name": "front_fur", "opacity": 255, "blendMode": "normal" },
+   { "name": "head", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

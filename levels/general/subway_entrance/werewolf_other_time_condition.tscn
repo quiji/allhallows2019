@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://levels/general/subway_entrance/werewolf_other_time_condition.gd" type="Script" id=1]
+
+[node name="werewolf_other_time_condition" type="Node2D"]
+script = ExtResource( 1 )
+

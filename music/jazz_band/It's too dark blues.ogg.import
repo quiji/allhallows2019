@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/It's too dark blues.ogg-56a5f6e168055d15a8896549e11ee5af.oggstr"
+
+[deps]
+
+source_file="res://music/jazz_band/It's too dark blues.ogg"
+dest_files=[ "res://.import/It's too dark blues.ogg-56a5f6e168055d15a8896549e11ee5af.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/wolf_bite.wav-1a39f4cc117b25d5c40cfbae7acb647d.sample"
+
+[deps]
+
+source_file="res://sfx/wolf_bite.wav"
+dest_files=[ "res://.import/wolf_bite.wav-1a39f4cc117b25d5c40cfbae7acb647d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

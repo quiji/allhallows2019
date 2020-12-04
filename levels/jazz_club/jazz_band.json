@@ -1,0 +1,375 @@
+{ "frames": {
+   "jazz_band 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 1.aseprite": {
+    "frame": { "x": 0, "y": 73, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 2.aseprite": {
+    "frame": { "x": 0, "y": 146, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 3.aseprite": {
+    "frame": { "x": 0, "y": 219, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 4.aseprite": {
+    "frame": { "x": 0, "y": 292, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 5.aseprite": {
+    "frame": { "x": 0, "y": 365, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 6.aseprite": {
+    "frame": { "x": 0, "y": 438, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 7.aseprite": {
+    "frame": { "x": 0, "y": 511, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 8.aseprite": {
+    "frame": { "x": 0, "y": 584, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 9.aseprite": {
+    "frame": { "x": 0, "y": 657, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 10.aseprite": {
+    "frame": { "x": 0, "y": 730, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 11.aseprite": {
+    "frame": { "x": 0, "y": 803, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 12.aseprite": {
+    "frame": { "x": 0, "y": 876, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 13.aseprite": {
+    "frame": { "x": 0, "y": 949, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 14.aseprite": {
+    "frame": { "x": 0, "y": 1022, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 15.aseprite": {
+    "frame": { "x": 0, "y": 1095, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 16.aseprite": {
+    "frame": { "x": 0, "y": 1168, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 17.aseprite": {
+    "frame": { "x": 0, "y": 1241, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 18.aseprite": {
+    "frame": { "x": 0, "y": 1314, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 19.aseprite": {
+    "frame": { "x": 0, "y": 1387, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 20.aseprite": {
+    "frame": { "x": 0, "y": 1460, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 21.aseprite": {
+    "frame": { "x": 0, "y": 1533, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 22.aseprite": {
+    "frame": { "x": 0, "y": 1606, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 23.aseprite": {
+    "frame": { "x": 0, "y": 1679, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 100
+   },
+   "jazz_band 24.aseprite": {
+    "frame": { "x": 0, "y": 1752, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 25.aseprite": {
+    "frame": { "x": 0, "y": 1825, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 26.aseprite": {
+    "frame": { "x": 0, "y": 1898, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 27.aseprite": {
+    "frame": { "x": 0, "y": 1971, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 28.aseprite": {
+    "frame": { "x": 0, "y": 2044, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 29.aseprite": {
+    "frame": { "x": 0, "y": 2117, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 30.aseprite": {
+    "frame": { "x": 0, "y": 2190, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 31.aseprite": {
+    "frame": { "x": 0, "y": 2263, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 32.aseprite": {
+    "frame": { "x": 0, "y": 2336, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 33.aseprite": {
+    "frame": { "x": 0, "y": 2409, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 34.aseprite": {
+    "frame": { "x": 0, "y": 2482, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 35.aseprite": {
+    "frame": { "x": 0, "y": 2555, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 36.aseprite": {
+    "frame": { "x": 0, "y": 2628, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 37.aseprite": {
+    "frame": { "x": 0, "y": 2701, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 38.aseprite": {
+    "frame": { "x": 0, "y": 2774, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 39.aseprite": {
+    "frame": { "x": 0, "y": 2847, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 40.aseprite": {
+    "frame": { "x": 0, "y": 2920, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 41.aseprite": {
+    "frame": { "x": 0, "y": 2993, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   },
+   "jazz_band 42.aseprite": {
+    "frame": { "x": 0, "y": 3066, "w": 123, "h": 73 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 123, "h": 73 },
+    "sourceSize": { "w": 123, "h": 73 },
+    "duration": 107
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.12.1",
+  "image": "jazz_band.png",
+  "format": "RGBA8888",
+  "size": { "w": 123, "h": 3139 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "FastSwing", "from": 0, "to": 7, "direction": "forward" },
+   { "name": "FastSwingIntro", "from": 8, "to": 23, "direction": "forward" },
+   { "name": "Talking", "from": 24, "to": 42, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "ride", "opacity": 255, "blendMode": "normal" },
+   { "name": "drummer", "opacity": 255, "blendMode": "normal" },
+   { "name": "bassdrum", "opacity": 255, "blendMode": "normal" },
+   { "name": "snare", "opacity": 255, "blendMode": "normal" },
+   { "name": "front_arm", "opacity": 255, "blendMode": "normal" },
+   { "name": "hihat", "opacity": 255, "blendMode": "normal" },
+   { "name": "crash", "opacity": 255, "blendMode": "normal" },
+   { "name": "bass", "opacity": 255, "blendMode": "normal" },
+   { "name": "piano", "opacity": 255, "blendMode": "normal" },
+   { "name": "pianist", "opacity": 255, "blendMode": "normal" },
+   { "name": "bassist", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

@@ -1,0 +1,188 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://gui/hud/hud.gd" type="Script" id=1]
+[ext_resource path="res://gui/hud/health_bar.tscn" type="PackedScene" id=2]
+[ext_resource path="res://gui/hud/bullet_bar.tscn" type="PackedScene" id=3]
+[ext_resource path="res://gui/hud/bullet_icon.tscn" type="PackedScene" id=4]
+[ext_resource path="res://gui/hud/text_bubble.tscn" type="PackedScene" id=5]
+[ext_resource path="res://gui/hud/bullet_selection.tscn" type="PackedScene" id=6]
+[ext_resource path="res://gui/hud/item_prompt.tscn" type="PackedScene" id=7]
+[ext_resource path="res://gui/hud/down_cue.tscn" type="PackedScene" id=8]
+
+[sub_resource type="Shader" id=1]
+code = "shader_type canvas_item;
+render_mode unshaded;
+
+uniform float blackness : hint_range(0.0, 1.0);
+uniform sampler2D shapes;
+
+void fragment() {
+	
+	vec4 col = texture(shapes, UV);
+	vec4 final_col = vec4(0.0, 0.0, 0.0, 0.0);
+	if (col.r <= blackness) 
+		final_col = vec4(COLOR.rgb, 1.0);
+	else
+		final_col = vec4(COLOR.rgb, 0.0);
+
+	
+	COLOR = final_col;
+	
+}"
+
+[sub_resource type="Gradient" id=2]
+offsets = PoolRealArray( 0, 0.503268, 1 )
+colors = PoolColorArray( 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1 )
+
+[sub_resource type="GradientTexture" id=3]
+gradient = SubResource( 2 )
+
+[sub_resource type="ShaderMaterial" id=4]
+shader = SubResource( 1 )
+shader_param/blackness = 0.0
+shader_param/shapes = SubResource( 3 )
+
+[sub_resource type="Animation" id=5]
+resource_name = "close_screen"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("blackout_screen:material:shader_param/blackness")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 0.217638, 1 ),
+"update": 0,
+"values": [ 0.0, 1.0 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("blackout_screen:color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "death_close_screen"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("blackout_screen:material:shader_param/blackness")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 0.217638, 1 ),
+"update": 0,
+"values": [ 0.0, 1.0 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("blackout_screen:color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.541176, 0.0588235, 0.211765, 1 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("blackout_screen:material:shader_param/blackness")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 3.03143, 1 ),
+"update": 0,
+"values": [ 1.0, 0.0 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("blackout_screen:color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ) ]
+}
+
+[node name="hud" type="CanvasLayer"]
+pause_mode = 2
+layer = 2
+script = ExtResource( 1 )
+
+[node name="hbox" type="HBoxContainer" parent="."]
+margin_right = 54.0
+margin_bottom = 96.0
+alignment = 2
+
+[node name="health_bar" parent="hbox" instance=ExtResource( 2 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 24.0
+margin_bottom = 96.0
+
+[node name="bullets" type="Control" parent="hbox"]
+editor/display_folded = true
+margin_left = 28.0
+margin_right = 52.0
+margin_bottom = 96.0
+rect_min_size = Vector2( 24, 96 )
+
+[node name="bullet_bar" parent="hbox/bullets" instance=ExtResource( 3 )]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_top = -84.0
+margin_bottom = 0.0
+
+[node name="current_bullet" parent="hbox" instance=ExtResource( 4 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 56.0
+margin_right = 81.0
+margin_bottom = 96.0
+
+[node name="text_bubble" parent="." instance=ExtResource( 5 )]
+margin_left = 148.5
+margin_top = 121.5
+margin_right = 148.5
+margin_bottom = 121.5
+
+[node name="blackout_screen" type="ColorRect" parent="."]
+material = SubResource( 4 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="anims" type="AnimationPlayer" parent="."]
+anims/close_screen = SubResource( 5 )
+anims/death_close_screen = SubResource( 6 )
+anims/open_screen = SubResource( 7 )
+
+[node name="bullet_selection" parent="." instance=ExtResource( 6 )]
+visible = false
+
+[node name="item_prompt" parent="." instance=ExtResource( 7 )]
+visible = false
+
+[node name="down_cue" parent="." instance=ExtResource( 8 )]
+

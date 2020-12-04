@@ -1,0 +1,25 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://characters/playable/hunter/gun.gd" type="Script" id=1]
+[ext_resource path="res://fx/bullet_line.tscn" type="PackedScene" id=2]
+[ext_resource path="res://fx/muzzle.tscn" type="PackedScene" id=3]
+[ext_resource path="res://sfx/shoot.tscn" type="PackedScene" id=4]
+[ext_resource path="res://sfx/out_of_ammo.tscn" type="PackedScene" id=5]
+
+[node name="gun" type="RayCast2D"]
+enabled = true
+cast_to = Vector2( 2000, 0 )
+collision_mask = 2
+script = ExtResource( 1 )
+
+[node name="bullet_line" parent="." instance=ExtResource( 2 )]
+position = Vector2( 40, 0 )
+texture_mode = 1346560341
+
+[node name="muzzle" parent="." instance=ExtResource( 3 )]
+position = Vector2( 20, 0 )
+
+[node name="shoot" parent="." instance=ExtResource( 4 )]
+
+[node name="out_of_ammo" parent="." instance=ExtResource( 5 )]
+

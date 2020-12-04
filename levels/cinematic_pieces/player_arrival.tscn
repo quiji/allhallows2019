@@ -1,0 +1,6 @@
+[gd_scene format=2]
+
+[node name="player_arrival" type="Area2D"]
+monitoring = false
+monitorable = false
+

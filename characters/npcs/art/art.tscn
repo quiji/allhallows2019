@@ -1,0 +1,63 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://characters/npcs/NPC.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/npcs/art/art.png" type="Texture" id=2]
+
+[sub_resource type="Animation" id=3]
+length = 0.6
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("art_sprite:frame")
+tracks/0/interp = 0
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0, 1, 2, 3, 4, 5 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("art_sprite:offset")
+tracks/1/interp = 0
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 17, 24 )
+
+[node name="art" index="0" instance=ExtResource( 1 )]
+
+[node name="talk_position" parent="." index="0"]
+position = Vector2( 0, -38 )
+
+[node name="art_sprite" type="Sprite" parent="." index="1"]
+position = Vector2( 0, -7 )
+texture = ExtResource( 2 )
+vframes = 2
+hframes = 3
+region_enabled = true
+region_rect = Rect2( 0, 0, 120, 118 )
+__meta__ = {
+"framesize_x": 40.0,
+"framesize_y": 59.0
+}
+
+[node name="anims" type="AnimationPlayer" parent="." index="2"]
+anims/clean_glass = SubResource( 3 )
+
+[node name="collision" type="CollisionShape2D" parent="." index="3"]
+position = Vector2( 0, -11 )
+shape = SubResource( 2 )
+
+[node name="hunter_position" parent="." index="4"]
+position = Vector2( 21, 35 )
+

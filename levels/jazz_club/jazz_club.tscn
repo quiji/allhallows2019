@@ -1,0 +1,679 @@
+[gd_scene load_steps=51 format=2]
+
+[ext_resource path="res://levels/Level.tscn" type="PackedScene" id=1]
+[ext_resource path="res://levels/jazz_club/jazz_club.gd" type="Script" id=2]
+[ext_resource path="res://levels/jazz_club/background.png" type="Texture" id=3]
+[ext_resource path="res://levels/ParallaxSprite.gd" type="Script" id=4]
+[ext_resource path="res://levels/jazz_club/jazz_band_shadow.png" type="Texture" id=5]
+[ext_resource path="res://levels/jazz_club/house_band.tscn" type="PackedScene" id=6]
+[ext_resource path="res://levels/jazz_club/floor.png" type="Texture" id=7]
+[ext_resource path="res://levels/jazz_club/tables.png" type="Texture" id=8]
+[ext_resource path="res://levels/jazz_club/bar_wall_behind.png" type="Texture" id=9]
+[ext_resource path="res://levels/jazz_club/left_back_wall.png" type="Texture" id=10]
+[ext_resource path="res://levels/jazz_club/front_tables.png" type="Texture" id=11]
+[ext_resource path="res://levels/jazz_club/behind_bar.png" type="Texture" id=12]
+[ext_resource path="res://levels/Room.tscn" type="PackedScene" id=13]
+[ext_resource path="res://levels/jazz_club/front_floot.png" type="Texture" id=14]
+[ext_resource path="res://levels/jazz_club/bar_wall.png" type="Texture" id=15]
+[ext_resource path="res://levels/jazz_club/bar.png" type="Texture" id=16]
+[ext_resource path="res://levels/jazz_club/entrance_wall.png" type="Texture" id=17]
+[ext_resource path="res://levels/jazz_club/bar_lamp.png" type="Texture" id=18]
+[ext_resource path="res://lights/bar_light.png" type="Texture" id=19]
+[ext_resource path="res://levels/objects/ceiling_lamp.tscn" type="PackedScene" id=20]
+[ext_resource path="res://levels/inner_door.tscn" type="PackedScene" id=21]
+[ext_resource path="res://levels/jazz_club/basement_door.png" type="Texture" id=22]
+[ext_resource path="res://characters/npcs/art/art.tscn" type="PackedScene" id=23]
+[ext_resource path="res://levels/dialogue.tscn" type="PackedScene" id=24]
+[ext_resource path="res://levels/jazz_club/basement_wall.png" type="Texture" id=25]
+[ext_resource path="res://levels/jazz_club/basement_floor.png" type="Texture" id=26]
+[ext_resource path="res://levels/jazz_club/platform_connect.png" type="Texture" id=27]
+[ext_resource path="res://levels/jazz_club/tutorial_sign.png" type="Texture" id=28]
+[ext_resource path="res://levels/jazz_club/small_crates.png" type="Texture" id=29]
+[ext_resource path="res://levels/jazz_club/big_crate.png" type="Texture" id=30]
+[ext_resource path="res://levels/jazz_club/bar_fridge.png" type="Texture" id=31]
+[ext_resource path="res://levels/objects/item_box/item_box.tscn" type="PackedScene" id=32]
+[ext_resource path="res://characters/npcs/beca/beca.tscn" type="PackedScene" id=33]
+[ext_resource path="res://levels/jazz_club/parco_city_map.png" type="Texture" id=34]
+[ext_resource path="res://levels/scene_switcher.tscn" type="PackedScene" id=35]
+[ext_resource path="res://levels/tiles/walls.tscn" type="PackedScene" id=36]
+[ext_resource path="res://characters/playable/hunter/hunter.tscn" type="PackedScene" id=37]
+[ext_resource path="res://levels/jazz_club/foreground_crowd.png" type="Texture" id=38]
+[ext_resource path="res://levels/jazz_club/foreground_crate.png" type="Texture" id=39]
+[ext_resource path="res://levels/jazz_club/behind_lights.png" type="Texture" id=40]
+[ext_resource path="res://levels/jazz_club/lights.png" type="Texture" id=41]
+[ext_resource path="res://levels/CameraBox.tscn" type="PackedScene" id=42]
+[ext_resource path="res://characters/others/practice_buds/practice_buds.tscn" type="PackedScene" id=43]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 24, 33 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 28, 52 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 3, 10 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 49, 56 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 278, 111 )
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 519, 182 )
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 694, 217 )
+
+[node name="jazz_club" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+player_node = NodePath("hunter")
+
+[node name="back_parallax" type="ParallaxBackground" parent="." index="0"]
+editor/display_folded = true
+
+[node name="back" type="ParallaxLayer" parent="back_parallax" index="0"]
+editor/display_folded = true
+motion_scale = Vector2( 0.9, 1 )
+
+[node name="background" type="Sprite" parent="back_parallax/back" index="0"]
+position = Vector2( 240, 185 )
+z_index = -2
+texture = ExtResource( 3 )
+script = ExtResource( 4 )
+
+[node name="jazz_band_shadow" type="Sprite" parent="back_parallax/back" index="1"]
+position = Vector2( 175, 270 )
+texture = ExtResource( 5 )
+script = ExtResource( 4 )
+
+[node name="band" type="ParallaxLayer" parent="back_parallax" index="1"]
+editor/display_folded = true
+motion_scale = Vector2( 0.93, 1 )
+
+[node name="house_band" parent="back_parallax/band" index="0" instance=ExtResource( 6 )]
+position = Vector2( 178, 271 )
+
+[node name="back_tables" type="ParallaxLayer" parent="back_parallax" index="2"]
+editor/display_folded = true
+motion_scale = Vector2( 0.96, 1 )
+
+[node name="floor" type="Sprite" parent="back_parallax/back_tables" index="0"]
+position = Vector2( 240, 345 )
+texture = ExtResource( 7 )
+script = ExtResource( 4 )
+
+[node name="tables" type="Sprite" parent="back_parallax/back_tables" index="1"]
+position = Vector2( 174, 323 )
+texture = ExtResource( 8 )
+script = ExtResource( 4 )
+
+[node name="bar_wall2" type="Sprite" parent="back_parallax/back_tables" index="2"]
+position = Vector2( 396, 200 )
+texture = ExtResource( 9 )
+
+[node name="leftback_wall" type="Sprite" parent="back_parallax/back_tables" index="3"]
+position = Vector2( -12, 192 )
+texture = ExtResource( 10 )
+
+[node name="front_tables" type="ParallaxLayer" parent="back_parallax" index="3"]
+editor/display_folded = true
+motion_scale = Vector2( 0.984, 1 )
+
+[node name="tables2" type="Sprite" parent="back_parallax/front_tables" index="0"]
+position = Vector2( 174, 323 )
+texture = ExtResource( 11 )
+script = ExtResource( 4 )
+
+[node name="bar2" type="Sprite" parent="back_parallax/front_tables" index="1"]
+visible = false
+position = Vector2( 358, 326 )
+texture = ExtResource( 12 )
+
+[node name="club" parent="." index="1" instance=ExtResource( 13 )]
+editor/display_folded = true
+
+[node name="floor3" type="Sprite" parent="club" index="0"]
+position = Vector2( 455, 350.5 )
+texture = ExtResource( 7 )
+region_enabled = true
+region_rect = Rect2( 464.32, 9.5, 110.68, 39 )
+
+[node name="floor" type="Sprite" parent="club" index="1"]
+position = Vector2( -48, 358 )
+texture = ExtResource( 14 )
+
+[node name="floor2" type="Sprite" parent="club" index="2"]
+position = Vector2( 496, 358 )
+texture = ExtResource( 14 )
+
+[node name="bar_wall2" type="Sprite" parent="club" index="3"]
+position = Vector2( 494.5, 200 )
+scale = Vector2( 1.79412, 1 )
+texture = ExtResource( 15 )
+
+[node name="bar_wall" type="Sprite" parent="club" index="4"]
+position = Vector2( 427, 200 )
+texture = ExtResource( 15 )
+
+[node name="bar" type="Sprite" parent="club" index="5"]
+position = Vector2( 361, 326 )
+texture = ExtResource( 16 )
+
+[node name="entrance_wall" type="Sprite" parent="club" index="6"]
+position = Vector2( -176, 317 )
+texture = ExtResource( 17 )
+
+[node name="bar_lamp" type="Sprite" parent="club" index="7"]
+editor/display_folded = true
+position = Vector2( 392, 100 )
+texture = ExtResource( 18 )
+
+[node name="light" type="Light2D" parent="club/bar_lamp" index="0"]
+position = Vector2( 1, 188 )
+texture = ExtResource( 19 )
+mode = 2
+
+[node name="lamps" type="Node2D" parent="club" index="8"]
+editor/display_folded = true
+position = Vector2( 0, -5 )
+
+[node name="ceiling_lamp" parent="club/lamps" index="0" instance=ExtResource( 20 )]
+position = Vector2( -60, 294 )
+
+[node name="ceiling_lamp2" parent="club/lamps" index="1" instance=ExtResource( 20 )]
+position = Vector2( -170, 294 )
+
+[node name="ceiling_lamp3" parent="club/lamps" index="2" instance=ExtResource( 20 )]
+position = Vector2( -280, 294 )
+
+[node name="dr_club-basement" parent="club" index="9" instance=ExtResource( 21 )]
+position = Vector2( 481, 352 )
+target_door_node = NodePath("../../basement/dr_basem-club")
+
+[node name="collision" type="CollisionShape2D" parent="club/dr_club-basement" index="0"]
+position = Vector2( -1, -16 )
+shape = SubResource( 1 )
+
+[node name="door" type="Sprite" parent="club/dr_club-basement" index="1"]
+position = Vector2( 0, -37 )
+texture = ExtResource( 22 )
+hframes = 2
+
+[node name="art" parent="club" index="10" instance=ExtResource( 23 )]
+position = Vector2( 338, 316 )
+
+[node name="dialogue" parent="club/art" index="4" instance=ExtResource( 24 )]
+text = "[
+	{\"art\": \"Sol!! What's up man?\" },
+	{\"hunter\": \"Hey Art! I see you got Luna's piano trio to play here.\" },
+	{\"art\": \"That's right! I'm expecting to get this place full anytime now!\" },
+	{\"hunter\": \"By the way, is Beca here yet?\" },
+	{\"art\": \"Oh, she is already in the basement working relentlessly, as usual...\" },
+	{\"art\": \"...and I prepared a new training exercise for you man!\" },
+	{\"hunter\": \"Seriously? You know I don't need that.\" },
+	{\"art\": \"Yes you do. This is final. Get your ass there! \" }
+]
+"
+
+[node name="dialogue2" parent="club/art" index="6" instance=ExtResource( 24 )]
+text = "[
+	{\"art\": \"Have you talked with Beca already?\" }
+]"
+gamestate_condition_variable = "talked_to_beca"
+
+[node name="dialogue3" parent="club/art" index="7" instance=ExtResource( 24 )]
+text = "[
+	{\"art\": \"This trio is killing it man!!\" },	
+	{\"art\": \"I don't understand why isn't this place crammed!\" },	
+	{\"hunter\": \"You know that jazz is not as popular as it used to be.\" },	
+	{\"art\": \"That's absurd. People should know what's good.\" },	
+	{\"art\": \"Anyway, are you following a lead?\" },	
+	{\"hunter\": \"Yeah, I'll see you later.\" }
+]"
+
+[node name="basement" parent="." index="2" instance=ExtResource( 13 )]
+editor/display_folded = true
+
+[node name="bricks" type="TextureRect" parent="basement" index="0"]
+margin_left = -16.0
+margin_top = 809.0
+margin_right = 1440.0
+margin_bottom = 1127.0
+texture = ExtResource( 25 )
+stretch_mode = 2
+
+[node name="floor" type="TextureRect" parent="basement" index="1"]
+margin_top = 1119.0
+margin_right = 1438.0
+margin_bottom = 1135.0
+texture = ExtResource( 26 )
+stretch_mode = 2
+
+[node name="floor2" type="TextureRect" parent="basement" index="2"]
+margin_left = -15.0
+margin_top = 975.0
+margin_right = 177.0
+margin_bottom = 991.0
+texture = ExtResource( 26 )
+stretch_mode = 2
+
+[node name="floor4" type="TextureRect" parent="basement" index="3"]
+margin_left = 1231.0
+margin_top = 1007.0
+margin_right = 1311.0
+margin_bottom = 1023.0
+texture = ExtResource( 26 )
+stretch_mode = 2
+
+[node name="floor3" type="TextureRect" parent="basement" index="4"]
+margin_left = 239.0
+margin_top = 975.0
+margin_right = 1263.0
+margin_bottom = 991.0
+texture = ExtResource( 26 )
+stretch_mode = 2
+
+[node name="floor_connect" type="Sprite" parent="basement" index="5"]
+position = Vector2( 1247, 1003 )
+texture = ExtResource( 27 )
+
+[node name="floor_connect2" type="Sprite" parent="basement" index="6"]
+position = Vector2( 847, 999 )
+texture = ExtResource( 27 )
+
+[node name="floor_connect3" type="Sprite" parent="basement" index="7"]
+position = Vector2( 911, 1000 )
+texture = ExtResource( 27 )
+
+[node name="dr_basem-club" parent="basement" index="8" instance=ExtResource( 21 )]
+editor/display_folded = true
+position = Vector2( 86, 1118 )
+target_door_node = NodePath("../../club/dr_club-basement")
+
+[node name="collision" type="CollisionShape2D" parent="basement/dr_basem-club" index="0"]
+position = Vector2( -1, -49 )
+shape = SubResource( 2 )
+
+[node name="door" type="Sprite" parent="basement/dr_basem-club" index="1"]
+position = Vector2( 0, -29 )
+texture = ExtResource( 22 )
+hframes = 2
+
+[node name="lamps" type="Node2D" parent="basement" index="9"]
+editor/display_folded = true
+position = Vector2( 1, 621 )
+
+[node name="ceiling_lamp" parent="basement/lamps" index="0" instance=ExtResource( 20 )]
+position = Vector2( 82, 372 )
+
+[node name="ceiling_lamp9" parent="basement/lamps" index="1" instance=ExtResource( 20 )]
+position = Vector2( 87, 213 )
+
+[node name="ceiling_lamp2" parent="basement/lamps" index="2" instance=ExtResource( 20 )]
+position = Vector2( 320, 372 )
+
+[node name="ceiling_lamp8" parent="basement/lamps" index="3" instance=ExtResource( 20 )]
+position = Vector2( 326, 211 )
+
+[node name="ceiling_lamp3" parent="basement/lamps" index="4" instance=ExtResource( 20 )]
+position = Vector2( 511, 370 )
+
+[node name="ceiling_lamp10" parent="basement/lamps" index="5" instance=ExtResource( 20 )]
+position = Vector2( 540, 211 )
+
+[node name="ceiling_lamp4" parent="basement/lamps" index="6" instance=ExtResource( 20 )]
+position = Vector2( 696, 370 )
+
+[node name="ceiling_lamp12" parent="basement/lamps" index="7" instance=ExtResource( 20 )]
+position = Vector2( 754, 211 )
+
+[node name="ceiling_lamp5" parent="basement/lamps" index="8" instance=ExtResource( 20 )]
+position = Vector2( 877, 370 )
+
+[node name="ceiling_lamp13" parent="basement/lamps" index="9" instance=ExtResource( 20 )]
+position = Vector2( 960, 211 )
+
+[node name="ceiling_lamp6" parent="basement/lamps" index="10" instance=ExtResource( 20 )]
+position = Vector2( 1080, 370 )
+
+[node name="ceiling_lamp7" parent="basement/lamps" index="11" instance=ExtResource( 20 )]
+position = Vector2( 1297, 405 )
+
+[node name="ceiling_lamp14" parent="basement/lamps" index="12" instance=ExtResource( 20 )]
+position = Vector2( 1174, 211 )
+
+[node name="signs" type="Node2D" parent="basement" index="10"]
+editor/display_folded = true
+position = Vector2( 1, 628 )
+
+[node name="jump" type="Sprite" parent="basement/signs" index="0"]
+position = Vector2( 316, 442 )
+texture = ExtResource( 28 )
+hframes = 13
+
+[node name="shoot" type="Sprite" parent="basement/signs" index="1"]
+position = Vector2( 509, 439 )
+texture = ExtResource( 28 )
+hframes = 13
+frame = 1
+
+[node name="wall_jump" type="Sprite" parent="basement/signs" index="2"]
+position = Vector2( 1293, 445 )
+texture = ExtResource( 28 )
+hframes = 13
+frame = 12
+
+[node name="bullets" type="Sprite" parent="basement/signs" index="3"]
+position = Vector2( 958, 287 )
+texture = ExtResource( 28 )
+hframes = 13
+frame = 2
+
+[node name="crates" type="Node2D" parent="basement" index="11"]
+editor/display_folded = true
+
+[node name="small_crate" type="Sprite" parent="basement/crates" index="0"]
+position = Vector2( 376, 1096 )
+texture = ExtResource( 29 )
+hframes = 2
+
+[node name="small_crate2" type="Sprite" parent="basement/crates" index="1"]
+position = Vector2( 712, 1097 )
+texture = ExtResource( 29 )
+hframes = 2
+frame = 1
+
+[node name="big_crate" type="Sprite" parent="basement/crates" index="2"]
+position = Vector2( 1098, 1088 )
+texture = ExtResource( 30 )
+hframes = 2
+
+[node name="big_crate2" type="Sprite" parent="basement/crates" index="3"]
+position = Vector2( 1158, 1088 )
+texture = ExtResource( 30 )
+hframes = 2
+frame = 1
+
+[node name="bar_fridge" type="Sprite" parent="basement/crates" index="4"]
+position = Vector2( 1024, 1095 )
+texture = ExtResource( 31 )
+
+[node name="fall_fix" type="StaticBody2D" parent="basement" index="12"]
+editor/display_folded = true
+position = Vector2( 1126, 1044 )
+
+[node name="collision" type="CollisionShape2D" parent="basement/fall_fix" index="0"]
+position = Vector2( 9, 22 )
+shape = SubResource( 3 )
+
+[node name="collision2" type="CollisionShape2D" parent="basement/fall_fix" index="1"]
+position = Vector2( -5, 23 )
+shape = SubResource( 3 )
+
+[node name="item_box" parent="basement" index="13" instance=ExtResource( 32 )]
+position = Vector2( 1170, 975 )
+item_type = 1
+amount = 40
+
+[node name="beca" parent="basement" index="14" instance=ExtResource( 33 )]
+position = Vector2( 541, 975 )
+
+[node name="dialogue" parent="basement/beca" index="5" instance=ExtResource( 24 )]
+text = "[
+	{\"hunter\": \"Working overtime?\" },
+	{\"beca\": \"Sol! You are finally here. You are late and we have work to do.\" },
+	{\"hunter\": \"Late is a relative concept...\" },
+	{\"beca\": \"Shut up you idiot!! I found an interesting lead!\" },
+	{\"beca\": \"I was able to connect the missing person cases.\" },
+	{\"beca\": \"It points towards the closed subway.\" },
+	{\"hunter\": \"Great. I'm heading there.\" },
+	{\"beca\": \"I marked the place on the map on the wall.\" }
+]"
+gamestate_variable_setter = "talked_to_beca"
+
+[node name="dialogue2" parent="basement/beca" index="6" instance=ExtResource( 24 )]
+text = "[
+	{\"beca\": \"Use the map on the wall to see where you have to go.\" },
+	{\"beca\": \"Also keep your eyes open.\" }, 
+	{\"beca\": \"I think that this time we got an older one.\" },
+	{\"hunter\": \"If that's true I better get ready.\" }
+]"
+
+[node name="dialogue3" parent="basement/beca" index="7" instance=ExtResource( 24 )]
+text = "[
+	{\"beca\": \"Use the map on the wall to see where you have to go.\" }
+]"
+
+[node name="parco_city_map" type="Sprite" parent="basement" index="15"]
+position = Vector2( 327, 923 )
+texture = ExtResource( 34 )
+
+[node name="scene_switcher" parent="basement/parco_city_map" index="0" instance=ExtResource( 35 )]
+target_scene = "res://levels/general/entrance.tscn"
+
+[node name="collision" type="CollisionShape2D" parent="basement/parco_city_map/scene_switcher" index="0"]
+shape = SubResource( 4 )
+
+[node name="walls" parent="." index="3" instance=ExtResource( 36 )]
+
+[node name="blocks" parent="." index="4"]
+visible = false
+tile_data = PoolIntArray( 65532, 0, 0, 33, 0, 0, 131068, 0, 0, 65569, 0, 0, 196604, 0, 0, 131105, 0, 0, 262140, 0, 0, 262142, 0, 0, 262143, 0, 0, 196608, 0, 0, 196609, 0, 0, 196610, 0, 0, 196611, 0, 0, 196612, 0, 0, 196613, 0, 0, 196614, 0, 0, 196615, 0, 0, 196616, 0, 0, 196617, 0, 0, 196618, 0, 0, 196619, 0, 0, 196620, 0, 0, 196621, 0, 0, 196622, 0, 0, 196623, 0, 0, 196624, 0, 0, 196625, 0, 0, 196626, 0, 0, 196627, 0, 0, 196628, 0, 0, 196629, 0, 0, 196630, 0, 0, 196631, 0, 0, 196632, 0, 0, 196633, 0, 0, 196634, 0, 0, 196635, 0, 0, 196636, 0, 0, 196637, 0, 0, 196638, 0, 0, 196639, 0, 0, 196640, 0, 0, 196641, 0, 0, 196642, 0, 0, 196643, 0, 0, 196644, 0, 0, 196645, 0, 0, 196646, 0, 0, 327676, 0, 0, 327678, 0, 0, 262181, 0, 0, 262182, 0, 0, 393212, 0, 0, 393214, 0, 0, 327717, 0, 0, 327718, 0, 0, 458748, 0, 0, 458750, 0, 0, 393253, 0, 0, 393254, 0, 0, 524284, 0, 0, 524286, 0, 0, 458789, 0, 0, 458790, 0, 0, 589820, 0, 0, 589822, 0, 0, 524325, 0, 0, 524326, 0, 0, 655356, 0, 0, 655358, 0, 0, 589861, 0, 0, 589862, 0, 0, 720892, 0, 0, 720894, 0, 0, 655397, 0, 0, 655398, 0, 0, 786428, 0, 0, 786430, 0, 0, 720933, 0, 0, 720934, 0, 0, 851964, 0, 0, 851966, 0, 0, 786469, 0, 0, 786470, 0, 0, 917500, 0, 0, 917502, 0, 0, 852005, 0, 0, 852006, 0, 0, 983028, 0, 0, 983036, 0, 0, 983038, 0, 0, 917541, 0, 0, 917542, 0, 0, 1048564, 0, 0, 1048572, 0, 0, 1048574, 0, 0, 983077, 0, 0, 983078, 0, 0, 1114100, 0, 0, 1114107, 0, 0, 1114108, 0, 0, 1114110, 0, 0, 1048613, 0, 0, 1048614, 0, 0, 1179622, 0, 0, 1179623, 0, 0, 1179624, 0, 0, 1179625, 0, 0, 1179626, 0, 0, 1179627, 0, 0, 1179628, 0, 0, 1179629, 0, 0, 1179630, 0, 0, 1179631, 0, 0, 1179632, 0, 0, 1179633, 0, 0, 1179634, 0, 0, 1179635, 0, 0, 1179636, 0, 0, 1179637, 0, 0, 1179638, 0, 0, 1179639, 0, 0, 1179640, 0, 0, 1179641, 0, 0, 1179642, 0, 0, 1179643, 0, 0, 1179644, 0, 0, 1179645, 0, 0, 1179646, 0, 0, 1114149, 0, 0, 1114150, 0, 0, 1245158, 0, 0, 1179685, 0, 0, 1179686, 0, 0, 1310694, 0, 0, 1245221, 0, 0, 1245222, 0, 0, 1376230, 0, 0, 1310757, 0, 0, 1310758, 0, 0, 1441766, 0, 0, 1376293, 0, 0, 1376294, 0, 0, 1507302, 0, 0, 1507303, 0, 0, 1507304, 0, 0, 1507305, 0, 0, 1507306, 0, 0, 1507307, 0, 0, 1507308, 0, 0, 1507309, 0, 0, 1507310, 0, 0, 1507311, 0, 0, 1507312, 0, 0, 1507313, 0, 0, 1507314, 0, 0, 1507315, 0, 0, 1507316, 0, 0, 1507317, 0, 0, 1507318, 0, 0, 1507319, 0, 0, 1507320, 0, 0, 1507321, 0, 0, 1507322, 0, 0, 1507323, 0, 0, 1507324, 0, 0, 1507325, 0, 0, 1507326, 0, 0, 1507327, 0, 0, 1441792, 0, 0, 1441793, 0, 0, 1441794, 0, 0, 1441795, 0, 0, 1441796, 0, 0, 1441797, 0, 0, 1441798, 0, 0, 1441799, 0, 0, 1441800, 0, 0, 1441801, 0, 0, 1441802, 0, 0, 1441803, 0, 0, 1441804, 0, 0, 1441805, 0, 0, 1441806, 0, 0, 1441807, 0, 0, 1441808, 0, 0, 1441809, 0, 0, 1441810, 0, 0, 1441811, 0, 0, 1441812, 0, 0, 1441813, 0, 0, 1441814, 0, 0, 1441815, 0, 0, 1441816, 0, 0, 1441817, 0, 0, 1441818, 0, 0, 1441819, 0, 0, 1441820, 0, 0, 1441821, 0, 0, 1441822, 0, 0, 1441823, 0, 0, 1441824, 0, 0, 1441825, 0, 0, 1441826, 0, 0, 1441827, 0, 0, 1441828, 0, 0, 1441829, 0, 0, 1441830, 0, 0, 3276800, 0, 0, 3276886, 0, 0, 3342336, 0, 0, 3342337, 0, 0, 3342338, 0, 0, 3342339, 0, 0, 3342340, 0, 0, 3342341, 0, 0, 3342342, 0, 0, 3342343, 0, 0, 3342344, 0, 0, 3342345, 0, 0, 3342346, 0, 0, 3342347, 0, 0, 3342348, 0, 0, 3342349, 0, 0, 3342350, 0, 0, 3342351, 0, 0, 3342352, 0, 0, 3342353, 0, 0, 3342354, 0, 0, 3342355, 0, 0, 3342356, 0, 0, 3342357, 0, 0, 3342358, 0, 0, 3342359, 0, 0, 3342360, 0, 0, 3342361, 0, 0, 3342362, 0, 0, 3342363, 0, 0, 3342364, 0, 0, 3342365, 0, 0, 3342366, 0, 0, 3342367, 0, 0, 3342368, 0, 0, 3342369, 0, 0, 3342370, 0, 0, 3342371, 0, 0, 3342372, 0, 0, 3342373, 0, 0, 3342374, 0, 0, 3342375, 0, 0, 3342376, 0, 0, 3342377, 0, 0, 3342378, 0, 0, 3342379, 0, 0, 3342380, 0, 0, 3342381, 0, 0, 3342382, 0, 0, 3342383, 0, 0, 3342384, 0, 0, 3342385, 0, 0, 3342386, 0, 0, 3342387, 0, 0, 3342388, 0, 0, 3342389, 0, 0, 3342390, 0, 0, 3342391, 0, 0, 3342392, 0, 0, 3342393, 0, 0, 3342394, 0, 0, 3342395, 0, 0, 3342396, 0, 0, 3342397, 0, 0, 3342398, 0, 0, 3342399, 0, 0, 3342400, 0, 0, 3342401, 0, 0, 3342402, 0, 0, 3342403, 0, 0, 3342404, 0, 0, 3342405, 0, 0, 3342406, 0, 0, 3342407, 0, 0, 3342408, 0, 0, 3342409, 0, 0, 3342410, 0, 0, 3342411, 0, 0, 3342412, 0, 0, 3342413, 0, 0, 3342414, 0, 0, 3342415, 0, 0, 3342416, 0, 0, 3342417, 0, 0, 3342418, 0, 0, 3342419, 0, 0, 3342420, 0, 0, 3342421, 0, 0, 3342422, 0, 0, 3407872, 0, 0, 3407958, 0, 0, 3473408, 0, 0, 3473494, 0, 0, 3538944, 0, 0, 3539030, 0, 0, 3604480, 0, 0, 3604566, 0, 0, 3670016, 0, 0, 3670102, 0, 0, 3735552, 0, 0, 3735638, 0, 0, 3801088, 0, 0, 3801174, 0, 0, 3866624, 0, 0, 3866710, 0, 0, 3932160, 0, 0, 3932246, 0, 0, 3997696, 0, 0, 3997697, 0, 0, 3997698, 0, 0, 3997699, 0, 0, 3997700, 0, 0, 3997701, 0, 0, 3997702, 0, 0, 3997703, 0, 0, 3997704, 0, 0, 3997705, 0, 0, 3997706, 0, 0, 3997711, 0, 0, 3997712, 0, 0, 3997713, 0, 0, 3997714, 0, 0, 3997715, 0, 0, 3997716, 0, 0, 3997717, 0, 0, 3997718, 0, 0, 3997719, 0, 0, 3997720, 0, 0, 3997721, 0, 0, 3997722, 0, 0, 3997723, 0, 0, 3997724, 0, 0, 3997725, 0, 0, 3997726, 0, 0, 3997727, 0, 0, 3997728, 0, 0, 3997729, 0, 0, 3997730, 0, 0, 3997731, 0, 0, 3997732, 0, 0, 3997733, 0, 0, 3997734, 0, 0, 3997735, 0, 0, 3997736, 0, 0, 3997737, 0, 0, 3997738, 0, 0, 3997739, 0, 0, 3997740, 0, 0, 3997741, 0, 0, 3997742, 0, 0, 3997743, 0, 0, 3997744, 0, 0, 3997745, 0, 0, 3997746, 0, 0, 3997747, 0, 0, 3997748, 0, 0, 3997749, 0, 0, 3997750, 0, 0, 3997751, 0, 0, 3997752, 0, 0, 3997753, 0, 0, 3997754, 0, 0, 3997755, 0, 0, 3997756, 0, 0, 3997757, 0, 0, 3997758, 0, 0, 3997759, 0, 0, 3997760, 0, 0, 3997761, 0, 0, 3997762, 0, 0, 3997763, 0, 0, 3997764, 0, 0, 3997765, 0, 0, 3997766, 0, 0, 3997767, 0, 0, 3997768, 0, 0, 3997769, 0, 0, 3997770, 0, 0, 3997771, 0, 0, 3997772, 0, 0, 3997773, 0, 0, 3997774, 0, 0, 3997782, 0, 0, 4063232, 0, 0, 4063284, 0, 0, 4063285, 0, 0, 4063288, 0, 0, 4063289, 0, 0, 4063309, 0, 0, 4063310, 0, 0, 4063318, 0, 0, 4128768, 0, 0, 4128820, 0, 0, 4128821, 0, 0, 4128824, 0, 0, 4128825, 0, 0, 4128845, 0, 0, 4128846, 0, 0, 4128847, 0, 0, 4128848, 0, 0, 4128849, 0, 0, 4128854, 0, 0, 4194304, 0, 0, 4194390, 0, 0, 4259840, 0, 0, 4259926, 0, 0, 4325376, 0, 0, 4325443, 0, 0, 4325444, 0, 0, 4325445, 0, 0, 4325447, 0, 0, 4325448, 0, 0, 4325449, 0, 0, 4325462, 0, 0, 4325463, 0, 0, 4325464, 0, 0, 4390912, 0, 0, 4390934, 0, 0, 4390935, 0, 0, 4390936, 0, 0, 4390955, 0, 0, 4390956, 0, 0, 4390957, 0, 0, 4390973, 0, 0, 4390974, 0, 0, 4390975, 0, 0, 4390976, 0, 0, 4390977, 0, 0, 4390978, 0, 0, 4390979, 0, 0, 4390980, 0, 0, 4390981, 0, 0, 4390983, 0, 0, 4390984, 0, 0, 4390985, 0, 0, 4390998, 0, 0, 4390999, 0, 0, 4391000, 0, 0, 4456448, 0, 0, 4456470, 0, 0, 4456471, 0, 0, 4456472, 0, 0, 4456491, 0, 0, 4456492, 0, 0, 4456493, 0, 0, 4456509, 0, 0, 4456510, 0, 0, 4456511, 0, 0, 4456512, 0, 0, 4456513, 0, 0, 4456514, 0, 0, 4456515, 0, 0, 4456516, 0, 0, 4456517, 0, 0, 4456519, 0, 0, 4456520, 0, 0, 4456521, 0, 0, 4456534, 0, 0, 4456535, 0, 0, 4456536, 0, 0, 4521984, 0, 0, 4522006, 0, 0, 4522007, 0, 0, 4522008, 0, 0, 4522027, 0, 0, 4522028, 0, 0, 4522029, 0, 0, 4522045, 0, 0, 4522046, 0, 0, 4522047, 0, 0, 4522048, 0, 0, 4522049, 0, 0, 4522050, 0, 0, 4522051, 0, 0, 4522052, 0, 0, 4522053, 0, 0, 4522055, 0, 0, 4522056, 0, 0, 4522057, 0, 0, 4522070, 0, 0, 4522071, 0, 0, 4522072, 0, 0, 4587520, 0, 0, 4587521, 0, 0, 4587522, 0, 0, 4587523, 0, 0, 4587524, 0, 0, 4587525, 0, 0, 4587526, 0, 0, 4587527, 0, 0, 4587528, 0, 0, 4587529, 0, 0, 4587530, 0, 0, 4587531, 0, 0, 4587532, 0, 0, 4587533, 0, 0, 4587534, 0, 0, 4587535, 0, 0, 4587536, 0, 0, 4587537, 0, 0, 4587538, 0, 0, 4587539, 0, 0, 4587540, 0, 0, 4587541, 0, 0, 4587542, 0, 0, 4587543, 0, 0, 4587544, 0, 0, 4587545, 0, 0, 4587546, 0, 0, 4587547, 0, 0, 4587548, 0, 0, 4587549, 0, 0, 4587550, 0, 0, 4587551, 0, 0, 4587552, 0, 0, 4587553, 0, 0, 4587554, 0, 0, 4587555, 0, 0, 4587556, 0, 0, 4587557, 0, 0, 4587558, 0, 0, 4587559, 0, 0, 4587560, 0, 0, 4587561, 0, 0, 4587562, 0, 0, 4587563, 0, 0, 4587564, 0, 0, 4587565, 0, 0, 4587566, 0, 0, 4587567, 0, 0, 4587568, 0, 0, 4587569, 0, 0, 4587570, 0, 0, 4587571, 0, 0, 4587572, 0, 0, 4587573, 0, 0, 4587574, 0, 0, 4587575, 0, 0, 4587576, 0, 0, 4587577, 0, 0, 4587578, 0, 0, 4587579, 0, 0, 4587580, 0, 0, 4587581, 0, 0, 4587582, 0, 0, 4587583, 0, 0, 4587584, 0, 0, 4587585, 0, 0, 4587586, 0, 0, 4587587, 0, 0, 4587588, 0, 0, 4587589, 0, 0, 4587590, 0, 0, 4587591, 0, 0, 4587592, 0, 0, 4587593, 0, 0, 4587594, 0, 0, 4587595, 0, 0, 4587596, 0, 0, 4587597, 0, 0, 4587598, 0, 0, 4587599, 0, 0, 4587600, 0, 0, 4587601, 0, 0, 4587602, 0, 0, 4587603, 0, 0, 4587604, 0, 0, 4587605, 0, 0, 4587606, 0, 0, 4587607, 0, 0, 4587608, 0, 0 )
+
+[node name="hunter" parent="." index="5" instance=ExtResource( 37 )]
+position = Vector2( -321, 352 )
+
+[node name="camera_crew" parent="." index="7"]
+limit_left = -336
+limit_right = 528
+
+[node name="front_parallax" type="ParallaxBackground" parent="." index="8"]
+editor/display_folded = true
+layer = 1
+
+[node name="crowd" type="ParallaxLayer" parent="front_parallax" index="0"]
+editor/display_folded = true
+motion_scale = Vector2( 1.1, 1 )
+
+[node name="crowd" type="Sprite" parent="front_parallax/crowd" index="0"]
+position = Vector2( 182, 326 )
+texture = ExtResource( 38 )
+script = ExtResource( 4 )
+
+[node name="crate5" type="Sprite" parent="front_parallax/crowd" index="1"]
+position = Vector2( 47, 1112.5 )
+texture = ExtResource( 39 )
+hframes = 3
+frame = 2
+script = ExtResource( 4 )
+
+[node name="crate4" type="Sprite" parent="front_parallax/crowd" index="2"]
+position = Vector2( 87, 1144 )
+texture = ExtResource( 39 )
+hframes = 3
+frame = 1
+script = ExtResource( 4 )
+
+[node name="crate8" type="Sprite" parent="front_parallax/crowd" index="3"]
+position = Vector2( 129, 1133 )
+texture = ExtResource( 39 )
+hframes = 3
+frame = 1
+script = ExtResource( 4 )
+
+[node name="crate" type="Sprite" parent="front_parallax/crowd" index="4"]
+position = Vector2( 165, 1120.5 )
+texture = ExtResource( 39 )
+hframes = 3
+frame = 1
+script = ExtResource( 4 )
+
+[node name="crate6" type="Sprite" parent="front_parallax/crowd" index="5"]
+position = Vector2( 204, 1141 )
+texture = ExtResource( 39 )
+hframes = 3
+frame = 1
+script = ExtResource( 4 )
+
+[node name="crate7" type="Sprite" parent="front_parallax/crowd" index="6"]
+position = Vector2( 245, 1132 )
+texture = ExtResource( 39 )
+hframes = 3
+script = ExtResource( 4 )
+
+[node name="crate2" type="Sprite" parent="front_parallax/crowd" index="7"]
+position = Vector2( 959, 1118 )
+texture = ExtResource( 39 )
+flip_h = true
+hframes = 3
+script = ExtResource( 4 )
+
+[node name="crate13" type="Sprite" parent="front_parallax/crowd" index="8"]
+position = Vector2( 907, 1130 )
+texture = ExtResource( 39 )
+flip_h = true
+hframes = 3
+frame = 1
+script = ExtResource( 4 )
+
+[node name="crate14" type="Sprite" parent="front_parallax/crowd" index="9"]
+position = Vector2( 771, 1116 )
+texture = ExtResource( 39 )
+hframes = 3
+frame = 1
+script = ExtResource( 4 )
+
+[node name="crate15" type="Sprite" parent="front_parallax/crowd" index="10"]
+position = Vector2( 569, 1129 )
+texture = ExtResource( 39 )
+hframes = 3
+frame = 2
+script = ExtResource( 4 )
+
+[node name="crate17" type="Sprite" parent="front_parallax/crowd" index="11"]
+position = Vector2( 610, 1128.5 )
+texture = ExtResource( 39 )
+hframes = 3
+frame = 2
+script = ExtResource( 4 )
+
+[node name="crate16" type="Sprite" parent="front_parallax/crowd" index="12"]
+position = Vector2( 532, 1142 )
+texture = ExtResource( 39 )
+hframes = 3
+frame = 2
+script = ExtResource( 4 )
+
+[node name="crate18" type="Sprite" parent="front_parallax/crowd" index="13"]
+position = Vector2( 573, 1141.5 )
+texture = ExtResource( 39 )
+hframes = 3
+frame = 2
+script = ExtResource( 4 )
+
+[node name="crate12" type="Sprite" parent="front_parallax/crowd" index="14"]
+position = Vector2( 1371, 1117.5 )
+texture = ExtResource( 39 )
+flip_h = true
+hframes = 3
+script = ExtResource( 4 )
+
+[node name="crate3" type="Sprite" parent="front_parallax/crowd" index="15"]
+position = Vector2( 1326, 1136 )
+texture = ExtResource( 39 )
+flip_h = true
+hframes = 3
+script = ExtResource( 4 )
+
+[node name="crate9" type="Sprite" parent="front_parallax/crowd" index="16"]
+position = Vector2( 1173, 1137 )
+texture = ExtResource( 39 )
+hframes = 3
+script = ExtResource( 4 )
+
+[node name="crate11" type="Sprite" parent="front_parallax/crowd" index="17"]
+position = Vector2( 1251, 1138 )
+texture = ExtResource( 39 )
+hframes = 3
+frame = 2
+script = ExtResource( 4 )
+
+[node name="crate10" type="Sprite" parent="front_parallax/crowd" index="18"]
+position = Vector2( 1218, 1147 )
+texture = ExtResource( 39 )
+hframes = 3
+frame = 2
+script = ExtResource( 4 )
+
+[node name="dark" type="ColorRect" parent="front_parallax/crowd" index="19"]
+margin_left = -62.0
+margin_top = 1135.0
+margin_right = 1478.0
+margin_bottom = 1214.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="lights" type="ParallaxLayer" parent="front_parallax" index="1"]
+motion_scale = Vector2( 1.54, 1 )
+
+[node name="lights" type="Sprite" parent="front_parallax/lights" index="0"]
+position = Vector2( 178.5, 85.5 )
+texture = ExtResource( 40 )
+script = ExtResource( 4 )
+
+[node name="lights2" type="ParallaxLayer" parent="front_parallax" index="2"]
+motion_scale = Vector2( 1.56, 1 )
+
+[node name="lights" type="Sprite" parent="front_parallax/lights2" index="0"]
+position = Vector2( 178.5, 85.5 )
+texture = ExtResource( 41 )
+script = ExtResource( 4 )
+
+[node name="hud" parent="." index="9"]
+player_node = NodePath("../hunter")
+
+[node name="club_audio" type="Area2D" parent="." index="10"]
+editor/display_folded = true
+monitorable = false
+collision_layer = 8
+collision_mask = 8
+audio_bus_override = true
+audio_bus_name = "ClubSfx"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="club_audio" index="0"]
+position = Vector2( 250, 270 )
+shape = SubResource( 5 )
+
+[node name="cbox_club" parent="." index="11" instance=ExtResource( 42 )]
+editor/display_folded = true
+visible = false
+
+[node name="collision" type="CollisionShape2D" parent="cbox_club" index="0"]
+position = Vector2( 185, 205 )
+shape = SubResource( 6 )
+
+[node name="cbox_basement" parent="." index="12" instance=ExtResource( 42 )]
+position = Vector2( 345, 989 )
+
+[node name="collision" type="CollisionShape2D" parent="cbox_basement" index="0"]
+position = Vector2( 354, -72 )
+shape = SubResource( 7 )
+
+[node name="practice_buds" type="Node2D" parent="." index="13"]
+
+[node name="practice_buds" parent="practice_buds" index="0" instance=ExtResource( 43 )]
+position = Vector2( 661, 1120 )
+balloon_type = 0
+
+[node name="practice_buds2" parent="practice_buds" index="1" instance=ExtResource( 43 )]
+position = Vector2( 1129, 1119 )
+balloon_type = 0
+
+[node name="practice_buds3" parent="practice_buds" index="2" instance=ExtResource( 43 )]
+position = Vector2( 875, 1041.5 )
+balloon_type = 1
+
+[node name="darkness" type="CanvasModulate" parent="." index="14"]
+position = Vector2( 12, 60 )
+color = Color( 0.509804, 0.486275, 0.796078, 1 )
+

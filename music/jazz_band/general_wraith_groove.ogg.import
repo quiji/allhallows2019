@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/general_wraith_groove.ogg-22646aff20285dc9e9b80f211b1e014c.oggstr"
+
+[deps]
+
+source_file="res://music/jazz_band/general_wraith_groove.ogg"
+dest_files=[ "res://.import/general_wraith_groove.ogg-22646aff20285dc9e9b80f211b1e014c.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

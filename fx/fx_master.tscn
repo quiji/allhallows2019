@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://fx/fx_master.gd" type="Script" id=1]
+[ext_resource path="res://fx/muzzle.tscn" type="PackedScene" id=2]
+
+[node name="fx_master" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="muzzle" parent="." instance=ExtResource( 2 )]
+visible = false
+

@@ -1,0 +1,197 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://characters/enemies/eyeball/eyeball.gd" type="Script" id=1]
+[ext_resource path="res://characters/enemies/eyeball/flying_ball.png" type="Texture" id=2]
+[ext_resource path="res://characters/enemies/eyeball/sprite.gd" type="Script" id=3]
+[ext_resource path="res://lib/states/states.gd" type="Script" id=4]
+[ext_resource path="res://characters/enemies/eyeball/seek.gd" type="Script" id=5]
+[ext_resource path="res://characters/enemies/eyeball/pursue.gd" type="Script" id=6]
+[ext_resource path="res://characters/enemies/eyeball/transform.gd" type="Script" id=7]
+[ext_resource path="res://characters/enemies/eyeball/attack.gd" type="Script" id=8]
+[ext_resource path="res://characters/enemies/eyeball/prepare.gd" type="Script" id=9]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 14.3049
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 95.0
+height = 92.0
+
+[sub_resource type="CircleShape2D" id=3]
+radius = 11.1803
+
+[sub_resource type="Animation" id=4]
+length = 0.6
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("sprite:frame")
+tracks/0/interp = 0
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 21, 22, 23, 24, 25, 26 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("sprite:offset")
+tracks/1/interp = 0
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+length = 0.3
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("sprite:frame")
+tracks/0/interp = 0
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0, 1, 2 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("sprite:offset")
+tracks/1/interp = 0
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+length = 0.6
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("sprite:frame")
+tracks/0/interp = 0
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 15, 16, 17, 18, 19, 20 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("sprite:offset")
+tracks/1/interp = 0
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+length = 1.2
+tracks/0/type = "value"
+tracks/0/path = NodePath("sprite:frame")
+tracks/0/interp = 0
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("sprite:offset")
+tracks/1/interp = 0
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+
+[node name="eyeball" type="KinematicBody2D"]
+collision_layer = 2
+collision_mask = 0
+script = ExtResource( 1 )
+
+[node name="collision" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="visibility_area" type="Area2D" parent="."]
+position = Vector2( -90, 0 )
+monitorable = false
+collision_layer = 0
+collision_mask = 4
+
+[node name="collision" type="CollisionShape2D" parent="visibility_area"]
+shape = SubResource( 2 )
+
+[node name="damage_area" type="Area2D" parent="."]
+monitorable = false
+collision_layer = 0
+collision_mask = 4
+
+[node name="collision" type="CollisionShape2D" parent="damage_area"]
+shape = SubResource( 3 )
+
+[node name="sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+vframes = 5
+hframes = 6
+frame = 19
+region_enabled = true
+region_rect = Rect2( 0, 0, 228, 120 )
+script = ExtResource( 3 )
+__meta__ = {
+"anim_player_name": "anims",
+"framesize_x": 38.0,
+"framesize_y": 24.0
+}
+update = false
+
+[node name="anims" type="AnimationPlayer" parent="."]
+anims/attack = SubResource( 4 )
+anims/flying_eye = SubResource( 5 )
+anims/flying_mouth = SubResource( 6 )
+anims/spotted = SubResource( 7 )
+
+[node name="states" type="Node" parent="."]
+script = ExtResource( 4 )
+
+[node name="seek" type="Node" parent="states"]
+script = ExtResource( 5 )
+
+[node name="pursue" type="Node" parent="states"]
+script = ExtResource( 6 )
+
+[node name="transform" type="Node" parent="states"]
+script = ExtResource( 7 )
+
+[node name="attack" type="Node" parent="states"]
+script = ExtResource( 8 )
+
+[node name="prepare" type="Node" parent="states"]
+script = ExtResource( 9 )
+

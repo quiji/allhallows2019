@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://sfx/out_of_ammo.wav" type="AudioStream" id=1]
+
+[sub_resource type="AudioStreamRandomPitch" id=1]
+audio_stream = ExtResource( 1 )
+random_pitch = 1.04
+
+[node name="out_of_ammo" type="AudioStreamPlayer2D"]
+pause_mode = 2
+stream = SubResource( 1 )
+bus = "Sfx"
+area_mask = 8
+

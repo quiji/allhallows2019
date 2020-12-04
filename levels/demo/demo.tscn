@@ -1,0 +1,88 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://levels/Level.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/playable/hunter/hunter.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/bosses/general/general.tscn" type="PackedScene" id=3]
+[ext_resource path="res://characters/enemies/werewolf/werewolf.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/enemies/eyeball/eyeball.tscn" type="PackedScene" id=5]
+[ext_resource path="res://levels/cinematic_pieces/player_arrival.tscn" type="PackedScene" id=6]
+[ext_resource path="res://levels/cinematic_pieces/player_to_position.tscn" type="PackedScene" id=7]
+[ext_resource path="res://levels/cinematic_pieces/talk.tscn" type="PackedScene" id=8]
+[ext_resource path="res://levels/cinematic_pieces/talk.gd" type="Script" id=9]
+[ext_resource path="res://gui/hud/Conversation.gd" type="Script" id=10]
+[ext_resource path="res://levels/cinematic_pieces/actor_anim.tscn" type="PackedScene" id=11]
+[ext_resource path="res://levels/cinematic_pieces/player_restore.tscn" type="PackedScene" id=12]
+
+[sub_resource type="RectangleShape2D" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 178, 79 )
+
+[node name="demo" instance=ExtResource( 1 )]
+player_node = NodePath("hunter")
+
+[node name="blocks" parent="." index="0"]
+tile_data = PoolIntArray( 786507, 0, 0, 852043, 0, 0, 917579, 0, 0, 983115, 0, 0, 1048651, 0, 0, 1114187, 0, 0, 1179665, 0, 0, 1179723, 0, 0, 1245201, 0, 0, 1245259, 0, 0, 1310737, 0, 0, 1310795, 0, 0, 1376273, 0, 0, 1376331, 0, 0, 1441809, 0, 0, 1441814, 0, 0, 1441815, 0, 0, 1441816, 0, 0, 1441817, 0, 0, 1441867, 0, 0, 1507345, 0, 0, 1507373, 0, 0, 1507374, 0, 0, 1507403, 0, 0, 1572881, 0, 0, 1572905, 0, 0, 1572906, 0, 0, 1572909, 0, 0, 1572910, 0, 0, 1572939, 0, 0, 1638417, 0, 0, 1638441, 0, 0, 1638442, 0, 0, 1638445, 0, 0, 1638446, 0, 0, 1638475, 0, 0, 1703953, 0, 0, 1703977, 0, 0, 1703978, 0, 0, 1703981, 0, 0, 1703982, 0, 0, 1704011, 0, 0, 1769485, 0, 0, 1769486, 0, 0, 1769487, 0, 0, 1769488, 0, 0, 1769489, 0, 0, 1769490, 0, 0, 1769491, 0, 0, 1769492, 0, 0, 1769493, 0, 0, 1769494, 0, 0, 1769495, 0, 0, 1769496, 0, 0, 1769497, 0, 0, 1769498, 0, 0, 1769499, 0, 0, 1769500, 0, 0, 1769501, 0, 0, 1769502, 0, 0, 1769503, 0, 0, 1769504, 0, 0, 1769505, 0, 0, 1769506, 0, 0, 1769507, 0, 0, 1769508, 0, 0, 1769509, 0, 0, 1769510, 0, 0, 1769511, 0, 0, 1769512, 0, 0, 1769513, 0, 0, 1769514, 0, 0, 1769515, 0, 0, 1769516, 0, 0, 1769517, 0, 0, 1769518, 0, 0, 1769519, 0, 0, 1769520, 0, 0, 1769521, 0, 0, 1769522, 0, 0, 1769523, 0, 0, 1769524, 0, 0, 1769525, 0, 0, 1769526, 0, 0, 1769527, 0, 0, 1769528, 0, 0, 1769529, 0, 0, 1769530, 0, 0, 1769531, 0, 0, 1769532, 0, 0, 1769533, 0, 0, 1769534, 0, 0, 1769535, 0, 0, 1769536, 0, 0, 1769537, 0, 0, 1769538, 0, 0, 1769539, 0, 0, 1769540, 0, 0, 1769541, 0, 0, 1769542, 0, 0, 1769543, 0, 0, 1769544, 0, 0, 1769545, 0, 0, 1769546, 0, 0, 1769547, 0, 0 )
+
+[node name="hunter" parent="." index="1" instance=ExtResource( 2 )]
+position = Vector2( 587, 431 )
+
+[node name="general" parent="." index="2" instance=ExtResource( 3 )]
+position = Vector2( 525, 431 )
+
+[node name="werewolf" parent="." index="3" instance=ExtResource( 4 )]
+position = Vector2( 1051, 432 )
+
+[node name="eyeball" parent="." index="4" instance=ExtResource( 5 )]
+editor/display_folded = true
+position = Vector2( 624, 235 )
+
+[node name="Line2D" type="Line2D" parent="eyeball" index="4"]
+points = PoolVector2Array( 145, 22, 71, 103, -233, 84, -146, -18 )
+texture_mode = 50
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." index="5"]
+visible = false
+color = Color( 0.776471, 0.752941, 0.913725, 1 )
+
+[node name="hud" parent="." index="7"]
+player_node = NodePath("../hunter")
+
+[node name="cinematic" parent="." index="9"]
+player_node = NodePath("../hunter")
+
+[node name="player_arrival2" type="Area2D" parent="cinematic" index="0"]
+editor/display_folded = true
+
+[node name="collision" type="CollisionShape2D" parent="cinematic/player_arrival2" index="0"]
+shape = SubResource( 2 )
+
+[node name="player_arrival" parent="cinematic" index="1" instance=ExtResource( 6 )]
+editor/display_folded = true
+collision_layer = 0
+collision_mask = 4
+
+[node name="collision" type="CollisionShape2D" parent="cinematic/player_arrival" index="0"]
+position = Vector2( 929, 354 )
+shape = SubResource( 1 )
+
+[node name="player_to_position" parent="cinematic" index="2" instance=ExtResource( 7 )]
+editor/display_folded = true
+
+[node name="player_target" type="Position2D" parent="cinematic/player_to_position" index="0"]
+position = Vector2( 920, 432 )
+
+[node name="camera_target" type="Position2D" parent="cinematic/player_to_position" index="1"]
+position = Vector2( 998, 432 )
+
+[node name="talk" parent="cinematic" index="3" instance=ExtResource( 8 )]
+script = ExtResource( 9 )
+
+[node name="conversation" type="Node" parent="cinematic/talk" index="0"]
+script = ExtResource( 10 )
+
+[node name="actor_anim" parent="cinematic" index="4" instance=ExtResource( 11 )]
+actor_path = NodePath("../../werewolf")
+
+[node name="player_restore" parent="cinematic" index="5" instance=ExtResource( 12 )]
+

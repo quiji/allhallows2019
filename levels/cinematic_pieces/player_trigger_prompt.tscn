@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://levels/cinematic_pieces/player_trigger_prompt.gd" type="Script" id=1]
+
+[node name="player_trigger_prompt" type="Area2D"]
+monitorable = false
+collision_layer = 0
+collision_mask = 4
+script = ExtResource( 1 )
+

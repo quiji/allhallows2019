@@ -1,0 +1,142 @@
+{ "frames": {
+   "bullet_spark 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   },
+   "bullet_spark 1.aseprite": {
+    "frame": { "x": 29, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   },
+   "bullet_spark 2.aseprite": {
+    "frame": { "x": 58, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   },
+   "bullet_spark 3.aseprite": {
+    "frame": { "x": 87, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   },
+   "bullet_spark 4.aseprite": {
+    "frame": { "x": 116, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   },
+   "bullet_spark 5.aseprite": {
+    "frame": { "x": 145, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   },
+   "bullet_spark 6.aseprite": {
+    "frame": { "x": 174, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   },
+   "bullet_spark 7.aseprite": {
+    "frame": { "x": 203, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   },
+   "bullet_spark 8.aseprite": {
+    "frame": { "x": 232, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   },
+   "bullet_spark 9.aseprite": {
+    "frame": { "x": 261, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   },
+   "bullet_spark 10.aseprite": {
+    "frame": { "x": 290, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   },
+   "bullet_spark 11.aseprite": {
+    "frame": { "x": 319, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   },
+   "bullet_spark 12.aseprite": {
+    "frame": { "x": 348, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   },
+   "bullet_spark 13.aseprite": {
+    "frame": { "x": 377, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   },
+   "bullet_spark 14.aseprite": {
+    "frame": { "x": 406, "y": 0, "w": 29, "h": 25 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 29, "h": 25 },
+    "sourceSize": { "w": 29, "h": 25 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.12.1",
+  "image": "bullet_spark.png",
+  "format": "RGBA8888",
+  "size": { "w": 435, "h": 25 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "spark", "from": 0, "to": 4, "direction": "forward" },
+   { "name": "blood_spark", "from": 5, "to": 10, "direction": "forward" },
+   { "name": "armored_spark", "from": 11, "to": 14, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Layer 2", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

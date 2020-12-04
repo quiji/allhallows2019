@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/bullet shell land.wav-2b56f111681725b47c27fdafda41b630.sample"
+
+[deps]
+
+source_file="res://sfx/bullet shell land.wav"
+dest_files=[ "res://.import/bullet shell land.wav-2b56f111681725b47c27fdafda41b630.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

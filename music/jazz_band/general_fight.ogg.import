@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/general_fight.ogg-b130afce7fb8a69fd4337c786b45d2af.oggstr"
+
+[deps]
+
+source_file="res://music/jazz_band/general_fight.ogg"
+dest_files=[ "res://.import/general_fight.ogg-b130afce7fb8a69fd4337c786b45d2af.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=29.217

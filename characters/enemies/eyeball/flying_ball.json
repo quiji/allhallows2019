@@ -1,0 +1,242 @@
+{ "frames": {
+   "flying_ball 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 1.aseprite": {
+    "frame": { "x": 38, "y": 0, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 2.aseprite": {
+    "frame": { "x": 76, "y": 0, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 3.aseprite": {
+    "frame": { "x": 114, "y": 0, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 4.aseprite": {
+    "frame": { "x": 152, "y": 0, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 5.aseprite": {
+    "frame": { "x": 190, "y": 0, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 6.aseprite": {
+    "frame": { "x": 0, "y": 24, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 7.aseprite": {
+    "frame": { "x": 38, "y": 24, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 8.aseprite": {
+    "frame": { "x": 76, "y": 24, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 9.aseprite": {
+    "frame": { "x": 114, "y": 24, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 10.aseprite": {
+    "frame": { "x": 152, "y": 24, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 11.aseprite": {
+    "frame": { "x": 190, "y": 24, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 12.aseprite": {
+    "frame": { "x": 0, "y": 48, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 13.aseprite": {
+    "frame": { "x": 38, "y": 48, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 14.aseprite": {
+    "frame": { "x": 76, "y": 48, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 15.aseprite": {
+    "frame": { "x": 114, "y": 48, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 16.aseprite": {
+    "frame": { "x": 152, "y": 48, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 17.aseprite": {
+    "frame": { "x": 190, "y": 48, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 18.aseprite": {
+    "frame": { "x": 0, "y": 72, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 19.aseprite": {
+    "frame": { "x": 38, "y": 72, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 20.aseprite": {
+    "frame": { "x": 76, "y": 72, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 21.aseprite": {
+    "frame": { "x": 114, "y": 72, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 22.aseprite": {
+    "frame": { "x": 152, "y": 72, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 23.aseprite": {
+    "frame": { "x": 190, "y": 72, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 24.aseprite": {
+    "frame": { "x": 0, "y": 96, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 25.aseprite": {
+    "frame": { "x": 38, "y": 96, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   },
+   "flying_ball 26.aseprite": {
+    "frame": { "x": 76, "y": 96, "w": 38, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 38, "h": 24 },
+    "sourceSize": { "w": 38, "h": 24 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.12.1",
+  "image": "flying_ball.png",
+  "format": "RGBA8888",
+  "size": { "w": 228, "h": 120 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "flying_eye", "from": 0, "to": 2, "direction": "forward" },
+   { "name": "spotted", "from": 3, "to": 14, "direction": "forward" },
+   { "name": "flying_mouth", "from": 15, "to": 20, "direction": "forward" },
+   { "name": "attack", "from": 21, "to": 26, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "body Copy", "opacity": 255, "blendMode": "normal" },
+   { "name": "wings Copy", "opacity": 255, "blendMode": "normal" },
+   { "name": "mouth Copy", "opacity": 255, "blendMode": "normal" },
+   { "name": "tongue", "opacity": 255, "blendMode": "normal" },
+   { "name": "eye", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

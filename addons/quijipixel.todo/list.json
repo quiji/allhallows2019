@@ -1,0 +1,3545 @@
+{
+  "completed": {
+    "task.0": {
+      "task": "Gun shoots one more time, when turning while running shooting animation is not finished.",
+      "type": "Bug",
+      "creation_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 27,
+        "weekday": 5,
+        "dst": false,
+        "hour": 7,
+        "minute": 37,
+        "second": 49
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 27,
+        "weekday": 5,
+        "dst": false,
+        "hour": 22,
+        "minute": 55,
+        "second": 11
+      }
+    },
+    "task.4": {
+      "task": "reload mechanic",
+      "type": "Feature",
+      "creation_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 27,
+        "weekday": 5,
+        "dst": false,
+        "hour": 23,
+        "minute": 25,
+        "second": 42
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 28,
+        "weekday": 6,
+        "dst": false,
+        "hour": 14,
+        "minute": 57,
+        "second": 3
+      }
+    },
+    "task.5": {
+      "task": "Add more frames to reload anim.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 28,
+        "weekday": 6,
+        "dst": false,
+        "hour": 14,
+        "minute": 57,
+        "second": 24
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29,
+        "weekday": 0,
+        "dst": false,
+        "hour": 1,
+        "minute": 17,
+        "second": 33
+      }
+    },
+    "task.6": {
+      "task": "add bullet casings.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29,
+        "weekday": 0,
+        "dst": false,
+        "hour": 1,
+        "minute": 17,
+        "second": 38
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29,
+        "weekday": 0,
+        "dst": false,
+        "hour": 1,
+        "minute": 17,
+        "second": 40
+      }
+    },
+    "task.2": {
+      "task": "Shooting mechanic",
+      "type": "Feature",
+      "creation_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 27,
+        "weekday": 5,
+        "dst": false,
+        "hour": 23,
+        "minute": 25,
+        "second": 18
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29,
+        "weekday": 0,
+        "dst": false,
+        "hour": 7,
+        "minute": 3,
+        "second": 1
+      }
+    },
+    "task.12": {
+      "task": "Fix arms in reloading animation",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 30,
+        "weekday": 1,
+        "dst": false,
+        "hour": 1,
+        "minute": 1,
+        "second": 53
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 1,
+        "weekday": 2,
+        "dst": false,
+        "hour": 14,
+        "minute": 18,
+        "second": 4
+      }
+    },
+    "task.13": {
+      "task": "Add transitions from shooting and idle into reloading",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 1,
+        "weekday": 2,
+        "dst": false,
+        "hour": 13,
+        "minute": 47,
+        "second": 44
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 1,
+        "weekday": 2,
+        "dst": false,
+        "hour": 15,
+        "minute": 42,
+        "second": 19
+      }
+    },
+    "task.7": {
+      "task": "Shoot on jump?",
+      "type": "Feature",
+      "creation_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29,
+        "weekday": 0,
+        "dst": false,
+        "hour": 1,
+        "minute": 17,
+        "second": 58
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 1,
+        "weekday": 2,
+        "dst": false,
+        "hour": 18,
+        "minute": 18,
+        "second": 9
+      }
+    },
+    "task.14": {
+      "task": "Create gun node",
+      "type": "Refactor",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 2,
+        "weekday": 3,
+        "dst": false,
+        "hour": 0,
+        "minute": 7,
+        "second": 33
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 2,
+        "weekday": 3,
+        "dst": false,
+        "hour": 0,
+        "minute": 57,
+        "second": 50
+      }
+    },
+    "task.10": {
+      "task": "Shoot upwards when jumping?",
+      "type": "Feature",
+      "creation_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29,
+        "weekday": 0,
+        "dst": false,
+        "hour": 1,
+        "minute": 18,
+        "second": 20
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 2,
+        "weekday": 3,
+        "dst": false,
+        "hour": 0,
+        "minute": 57,
+        "second": 54
+      }
+    },
+    "task.9": {
+      "task": "Shoot downwards when jumping?",
+      "type": "Feature",
+      "creation_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29,
+        "weekday": 0,
+        "dst": false,
+        "hour": 1,
+        "minute": 18,
+        "second": 12
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 2,
+        "weekday": 3,
+        "dst": false,
+        "hour": 0,
+        "minute": 57,
+        "second": 58
+      }
+    },
+    "task.8": {
+      "task": "Shoot up?",
+      "type": "Feature",
+      "creation_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29,
+        "weekday": 0,
+        "dst": false,
+        "hour": 1,
+        "minute": 18,
+        "second": 3
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 2,
+        "weekday": 3,
+        "dst": false,
+        "hour": 0,
+        "minute": 58,
+        "second": 2
+      }
+    },
+    "task.16": {
+      "task": "Improve bullet line.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 2,
+        "weekday": 3,
+        "dst": false,
+        "hour": 0,
+        "minute": 59,
+        "second": 2
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 2,
+        "weekday": 3,
+        "dst": false,
+        "hour": 10,
+        "minute": 20,
+        "second": 1
+      }
+    },
+    "task.15": {
+      "task": "jumping and shooting up/down ends abruptly instead of ingering like usual side shot.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 2,
+        "weekday": 3,
+        "dst": false,
+        "hour": 0,
+        "minute": 58,
+        "second": 51
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 2,
+        "weekday": 3,
+        "dst": false,
+        "hour": 11,
+        "minute": 3,
+        "second": 45
+      }
+    },
+    "task.3": {
+      "task": "Out of ammo mechanic",
+      "type": "Feature",
+      "creation_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 27,
+        "weekday": 5,
+        "dst": false,
+        "hour": 23,
+        "minute": 25,
+        "second": 32
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 2,
+        "weekday": 3,
+        "dst": false,
+        "hour": 11,
+        "minute": 43,
+        "second": 43
+      }
+    },
+    "task.17": {
+      "task": "Code enemy eyeball",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 3,
+        "weekday": 4,
+        "dst": false,
+        "hour": 11,
+        "minute": 58,
+        "second": 59
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 3,
+        "weekday": 4,
+        "dst": false,
+        "hour": 13,
+        "minute": 53,
+        "second": 58
+      }
+    },
+    "task.21": {
+      "task": "Bullet casings arent colliding with floor.",
+      "type": "Bug",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 3,
+        "weekday": 4,
+        "dst": false,
+        "hour": 13,
+        "minute": 57,
+        "second": 19
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 3,
+        "weekday": 4,
+        "dst": false,
+        "hour": 17,
+        "minute": 33,
+        "second": 7
+      }
+    },
+    "task.23": {
+      "task": "transition bug after reloading when reloading after shooting.",
+      "type": "Bug",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 3,
+        "weekday": 4,
+        "dst": false,
+        "hour": 18,
+        "minute": 13,
+        "second": 24
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 3,
+        "weekday": 4,
+        "dst": false,
+        "hour": 20,
+        "minute": 23,
+        "second": 30
+      }
+    },
+    "task.18": {
+      "task": "Shorten reload time.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 3,
+        "weekday": 4,
+        "dst": false,
+        "hour": 13,
+        "minute": 54,
+        "second": 11
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 3,
+        "weekday": 4,
+        "dst": false,
+        "hour": 20,
+        "minute": 23,
+        "second": 57
+      }
+    },
+    "task.25": {
+      "task": "Tweak the eyeballs AI to let the player reload their gun.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 0,
+        "minute": 54,
+        "second": 43
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 7,
+        "minute": 40,
+        "second": 21
+      }
+    },
+    "task.24": {
+      "task": "tweak eyeball ai to avoid going off screen.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 0,
+        "minute": 54,
+        "second": 8
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 9,
+        "minute": 8,
+        "second": 22
+      }
+    },
+    "task.26": {
+      "task": "Eyeball mechanics are nice, now tweak times to make it more enjoyable",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 9,
+        "minute": 8,
+        "second": 47
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 26,
+        "second": 57
+      }
+    },
+    "task.11": {
+      "task": "ammo and bullet type mechanics",
+      "type": "Feature",
+      "creation_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29,
+        "weekday": 0,
+        "dst": false,
+        "hour": 19,
+        "minute": 52,
+        "second": 58
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 31,
+        "second": 35
+      }
+    },
+    "task.28": {
+      "task": "Kill eyeball when reached enough damage.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 28,
+        "second": 15
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 35,
+        "second": 1
+      }
+    },
+    "task.30": {
+      "task": "Fix shoot line, make it work in \"global coordinates\". If runnig while shooting, the line moves into the obstacle and looks bad.",
+      "type": "Bug",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 11,
+        "minute": 0,
+        "second": 43
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 15,
+        "minute": 13,
+        "second": 29
+      }
+    },
+    "task.29": {
+      "task": "Add death and blood splash anims.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 35,
+        "second": 13
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 21,
+        "minute": 13,
+        "second": 13
+      }
+    },
+    "task.27": {
+      "task": "Create Hurt state.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 28,
+        "second": 4
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 22,
+        "minute": 54,
+        "second": 17
+      }
+    },
+    "task.32": {
+      "task": "Bullet gui",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 23,
+        "minute": 26,
+        "second": 51
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 5,
+        "weekday": 6,
+        "dst": false,
+        "hour": 16,
+        "minute": 49,
+        "second": 32
+      }
+    },
+    "task.33": {
+      "task": "Blood health container",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 23,
+        "minute": 27,
+        "second": 4
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 6,
+        "weekday": 0,
+        "dst": false,
+        "hour": 17,
+        "minute": 45,
+        "second": 54
+      }
+    },
+    "task.35": {
+      "task": "Hunter gets stuckes in hit animation.",
+      "type": "Bug",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 7,
+        "weekday": 1,
+        "dst": false,
+        "hour": 2,
+        "minute": 46,
+        "second": 42
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 7,
+        "weekday": 1,
+        "dst": false,
+        "hour": 5,
+        "minute": 25,
+        "second": 14
+      }
+    },
+    "task.34": {
+      "task": "Eyeball pattern: make it predictable.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 5,
+        "weekday": 6,
+        "dst": false,
+        "hour": 16,
+        "minute": 49,
+        "second": 53
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 7,
+        "weekday": 1,
+        "dst": false,
+        "hour": 5,
+        "minute": 25,
+        "second": 25
+      }
+    },
+    "task.47": {
+      "task": "Create intro level with its respective werewolf cinematic.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 10,
+        "minute": 33,
+        "second": 21
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 17,
+        "minute": 16,
+        "second": 3
+      }
+    },
+    "task.46": {
+      "task": "Create node to release player and reestablish camera from the cinematic.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 10,
+        "minute": 33,
+        "second": 8
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 17,
+        "minute": 16,
+        "second": 9
+      }
+    },
+    "task.44": {
+      "task": "Implement scene methods for werewolf introduction.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 7,
+        "weekday": 1,
+        "dst": false,
+        "hour": 15,
+        "minute": 14,
+        "second": 50
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 17,
+        "minute": 16,
+        "second": 25
+      }
+    },
+    "task.43": {
+      "task": "Implement camera system.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 7,
+        "weekday": 1,
+        "dst": false,
+        "hour": 15,
+        "minute": 4,
+        "second": 1
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 17,
+        "minute": 16,
+        "second": 32
+      }
+    },
+    "task.22": {
+      "task": "Test changing reload mechanic to be hold reload button. This way it can be cancelled. ",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 3,
+        "weekday": 4,
+        "dst": false,
+        "hour": 17,
+        "minute": 44,
+        "second": 52
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 17,
+        "minute": 16,
+        "second": 54
+      }
+    },
+    "task.51": {
+      "task": "Improve text bubble quality and add animations.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 17,
+        "minute": 18,
+        "second": 36
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 18,
+        "minute": 51,
+        "second": 0
+      }
+    },
+    "task.53": {
+      "task": "Create Game state object to keep track of the stuff to save in a potential save game.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 18,
+        "minute": 56,
+        "second": 30
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 19,
+        "minute": 15,
+        "second": 23
+      }
+    },
+    "task.52": {
+      "task": "Implement werewolf fight in subway entrance without the intro scene. This is for when the player dies and tries again, to avoid them to see the whole scene again.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 18,
+        "minute": 51,
+        "second": 51
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 21,
+        "minute": 29,
+        "second": 26
+      }
+    },
+    "task.54": {
+      "task": "Improve Wolfs transformation",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 9,
+        "weekday": 3,
+        "dst": false,
+        "hour": 12,
+        "minute": 7,
+        "second": 17
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 9,
+        "weekday": 3,
+        "dst": false,
+        "hour": 13,
+        "minute": 9,
+        "second": 16
+      }
+    },
+    "task.55": {
+      "task": "Create GameState modificator nodes for the cinematics",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 9,
+        "weekday": 3,
+        "dst": false,
+        "hour": 12,
+        "minute": 7,
+        "second": 43
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 9,
+        "weekday": 3,
+        "dst": false,
+        "hour": 13,
+        "minute": 18,
+        "second": 1
+      }
+    },
+    "task.56": {
+      "task": "Improve wolfs roar animation",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 9,
+        "weekday": 3,
+        "dst": false,
+        "hour": 13,
+        "minute": 52,
+        "second": 55
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 9,
+        "weekday": 3,
+        "dst": false,
+        "hour": 13,
+        "minute": 52,
+        "second": 56
+      }
+    },
+    "task.57": {
+      "task": "Add screen shake",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 9,
+        "weekday": 3,
+        "dst": false,
+        "hour": 19,
+        "minute": 21,
+        "second": 1
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 9,
+        "weekday": 3,
+        "dst": false,
+        "hour": 19,
+        "minute": 52,
+        "second": 0
+      }
+    },
+    "task.48": {
+      "task": "Implement werewolf run attack.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 17,
+        "minute": 17,
+        "second": 15
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 9,
+        "weekday": 3,
+        "dst": false,
+        "hour": 19,
+        "minute": 52,
+        "second": 10
+      }
+    },
+    "task.39": {
+      "task": "Create werewolf berserk.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 7,
+        "weekday": 1,
+        "dst": false,
+        "hour": 9,
+        "minute": 25,
+        "second": 21
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 9,
+        "weekday": 3,
+        "dst": false,
+        "hour": 19,
+        "minute": 52,
+        "second": 33
+      }
+    },
+    "task.1": {
+      "task": "sols Sprite normals",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 9,
+        "day": 27,
+        "weekday": 5,
+        "dst": false,
+        "hour": 23,
+        "minute": 22,
+        "second": 5
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 10,
+        "weekday": 4,
+        "dst": false,
+        "hour": 9,
+        "minute": 44,
+        "second": 33
+      }
+    },
+    "task.60": {
+      "task": "bullet casings aren't falling from certain directions.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 10,
+        "weekday": 4,
+        "dst": false,
+        "hour": 9,
+        "minute": 49,
+        "second": 25
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 11,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 53,
+        "second": 30
+      }
+    },
+    "task.58": {
+      "task": "Create jazz club",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 9,
+        "weekday": 3,
+        "dst": false,
+        "hour": 19,
+        "minute": 52,
+        "second": 49
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 11,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 53,
+        "second": 36
+      }
+    },
+    "task.61": {
+      "task": "Add jazz tune for band",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 11,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 53,
+        "second": 49
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 11,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 53,
+        "second": 56
+      }
+    },
+    "task.63": {
+      "task": "Add bullet casing sounds.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 12,
+        "weekday": 6,
+        "dst": false,
+        "hour": 19,
+        "minute": 29,
+        "second": 39
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 13,
+        "weekday": 0,
+        "dst": false,
+        "hour": 19,
+        "minute": 35,
+        "second": 29
+      }
+    },
+    "task.65": {
+      "task": "Make jazz band music positional and wire the reverb system. For basement and stuff.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 13,
+        "weekday": 0,
+        "dst": false,
+        "hour": 12,
+        "minute": 34,
+        "second": 40
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 13,
+        "weekday": 0,
+        "dst": false,
+        "hour": 19,
+        "minute": 35,
+        "second": 35
+      }
+    },
+    "task.66": {
+      "task": "Create inner door areas for switching from different level areas.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 13,
+        "weekday": 0,
+        "dst": false,
+        "hour": 21,
+        "minute": 10,
+        "second": 28
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 13,
+        "weekday": 0,
+        "dst": false,
+        "hour": 21,
+        "minute": 10,
+        "second": 30
+      }
+    },
+    "task.67": {
+      "task": "Implement an automated way to handle camera limits.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 13,
+        "weekday": 0,
+        "dst": false,
+        "hour": 21,
+        "minute": 11,
+        "second": 8
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 13,
+        "weekday": 0,
+        "dst": false,
+        "hour": 22,
+        "minute": 55,
+        "second": 58
+      }
+    },
+    "task.71": {
+      "task": "Make lamps destructible.",
+      "type": "Feature",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 15,
+        "weekday": 2,
+        "dst": false,
+        "hour": 22,
+        "minute": 34,
+        "second": 4
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 16,
+        "weekday": 3,
+        "dst": false,
+        "hour": 3,
+        "minute": 52,
+        "second": 23
+      }
+    },
+    "task.69": {
+      "task": "Add several ground raycast instead of one for hunter.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 14,
+        "weekday": 1,
+        "dst": false,
+        "hour": 16,
+        "minute": 50,
+        "second": 1
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 16,
+        "weekday": 3,
+        "dst": false,
+        "hour": 3,
+        "minute": 52,
+        "second": 37
+      }
+    },
+    "task.75": {
+      "task": "Allow the player to run while charging. ",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 16,
+        "weekday": 3,
+        "dst": false,
+        "hour": 11,
+        "minute": 1,
+        "second": 31
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 16,
+        "weekday": 3,
+        "dst": false,
+        "hour": 23,
+        "minute": 8,
+        "second": 30
+      }
+    },
+    "task.76": {
+      "task": "Revert little jumps from reloading and charging.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 16,
+        "weekday": 3,
+        "dst": false,
+        "hour": 23,
+        "minute": 8,
+        "second": 53
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 17,
+        "weekday": 4,
+        "dst": false,
+        "hour": 7,
+        "minute": 2,
+        "second": 42
+      }
+    },
+    "task.79": {
+      "task": "On cinematic tree, when the current action doesn't wait, the next action doesn't work properly.",
+      "type": "Bug",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 18,
+        "weekday": 5,
+        "dst": false,
+        "hour": 6,
+        "minute": 41,
+        "second": 44
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 18,
+        "weekday": 5,
+        "dst": false,
+        "hour": 6,
+        "minute": 41,
+        "second": 49
+      }
+    },
+    "task.45": {
+      "task": "Create Tutorial level!",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 9,
+        "minute": 4,
+        "second": 33
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 19,
+        "weekday": 6,
+        "dst": false,
+        "hour": 9,
+        "minute": 45,
+        "second": 59
+      }
+    },
+    "task.80": {
+      "task": "Make levels work on the new resolution",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 20,
+        "weekday": 0,
+        "dst": false,
+        "hour": 23,
+        "minute": 26,
+        "second": 44
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 0,
+        "minute": 7,
+        "second": 8
+      }
+    },
+    "task.82": {
+      "task": "fix jazz club's walls damaged by resolution change",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 0,
+        "minute": 7,
+        "second": 26
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 1,
+        "minute": 5,
+        "second": 40
+      }
+    },
+    "task.85": {
+      "task": "move hit sparks inside hitted target",
+      "type": "Refactor",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 9,
+        "minute": 29,
+        "second": 55
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 9,
+        "minute": 29,
+        "second": 57
+      }
+    },
+    "task.86": {
+      "task": "Create armored hit spark",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 9,
+        "minute": 31,
+        "second": 34
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 12,
+        "minute": 17,
+        "second": 14
+      }
+    },
+    "task.84": {
+      "task": "remove hit sparks adjust to normals. keep 4 rotations only",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 8,
+        "minute": 45,
+        "second": 48
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 12,
+        "minute": 49,
+        "second": 54
+      }
+    },
+    "task.68": {
+      "task": "Add shadow to floor on bar. Helps hide the obvious bad parallax of the floor and will work better with the lighting.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 14,
+        "weekday": 1,
+        "dst": false,
+        "hour": 13,
+        "minute": 8,
+        "second": 21
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 14,
+        "minute": 4,
+        "second": 40
+      }
+    },
+    "task.83": {
+      "task": "aracnoid enemy",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 0,
+        "minute": 9,
+        "second": 8
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 14,
+        "minute": 53,
+        "second": 39
+      }
+    },
+    "task.89": {
+      "task": "Create \"route system\" for arachnid",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 15,
+        "minute": 10,
+        "second": 32
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 15,
+        "minute": 24,
+        "second": 31
+      }
+    },
+    "task.90": {
+      "task": "aracnoid canwalk on the air",
+      "type": "Bug",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 22,
+        "weekday": 2,
+        "dst": false,
+        "hour": 15,
+        "minute": 59,
+        "second": 27
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 22,
+        "weekday": 2,
+        "dst": false,
+        "hour": 16,
+        "minute": 18,
+        "second": 7
+      }
+    },
+    "task.40": {
+      "task": "create small groundie enemy",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 7,
+        "weekday": 1,
+        "dst": false,
+        "hour": 9,
+        "minute": 25,
+        "second": 29
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 22,
+        "weekday": 2,
+        "dst": false,
+        "hour": 19,
+        "minute": 13,
+        "second": 27
+      }
+    },
+    "task.92": {
+      "task": "Improve worms textures. Make it a little slower to force the player to jump and shoot the bastard.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 22,
+        "weekday": 2,
+        "dst": false,
+        "hour": 19,
+        "minute": 44,
+        "second": 25
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 0,
+        "minute": 21,
+        "second": 9
+      }
+    },
+    "task.94": {
+      "task": "Try to set guns fire rate",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 0,
+        "minute": 59,
+        "second": 57
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 1,
+        "minute": 13,
+        "second": 54
+      }
+    },
+    "task.93": {
+      "task": "Change spiders attack, transform it ot a \"prettier\" pattern",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 22,
+        "weekday": 2,
+        "dst": false,
+        "hour": 19,
+        "minute": 45,
+        "second": 8
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 9,
+        "minute": 51,
+        "second": 4
+      }
+    },
+    "task.91": {
+      "task": "Make aracnoid more usable in the levels architecture",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 22,
+        "weekday": 2,
+        "dst": false,
+        "hour": 16,
+        "minute": 18,
+        "second": 32
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 9,
+        "minute": 51,
+        "second": 7
+      }
+    },
+    "task.87": {
+      "task": "aracnoid stomp breaks other stuff: nice for \"puzzles\"",
+      "type": "Feature",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 14,
+        "minute": 2,
+        "second": 14
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 9,
+        "minute": 51,
+        "second": 13
+      }
+    },
+    "task.59": {
+      "task": "Change hand sprite handlig for hunter. Let them keep the sprites full size, allowing for more uses of the arm.",
+      "type": "Refactor",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 9,
+        "weekday": 3,
+        "dst": false,
+        "hour": 20,
+        "minute": 53,
+        "second": 45
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 9,
+        "minute": 51,
+        "second": 47
+      }
+    },
+    "task.108": {
+      "task": "out of ammo sfx",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 24,
+        "weekday": 4,
+        "dst": false,
+        "hour": 7,
+        "minute": 3,
+        "second": 12
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 24,
+        "weekday": 4,
+        "dst": false,
+        "hour": 7,
+        "minute": 6,
+        "second": 12
+      }
+    },
+    "task.38": {
+      "task": "Create hammer werewolf",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 7,
+        "weekday": 1,
+        "dst": false,
+        "hour": 9,
+        "minute": 24,
+        "second": 55
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 24,
+        "weekday": 4,
+        "dst": false,
+        "hour": 8,
+        "minute": 41,
+        "second": 17
+      }
+    },
+    "task.73": {
+      "task": "werewolfs sounds",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 16,
+        "weekday": 3,
+        "dst": false,
+        "hour": 8,
+        "minute": 33,
+        "second": 52
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 24,
+        "weekday": 4,
+        "dst": false,
+        "hour": 8,
+        "minute": 41,
+        "second": 37
+      }
+    },
+    "task.109": {
+      "task": "Create title screen music",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 24,
+        "weekday": 4,
+        "dst": false,
+        "hour": 8,
+        "minute": 42,
+        "second": 13
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 24,
+        "weekday": 4,
+        "dst": false,
+        "hour": 8,
+        "minute": 42,
+        "second": 14
+      }
+    },
+    "task.111": {
+      "task": "create door sfx",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 24,
+        "weekday": 4,
+        "dst": false,
+        "hour": 8,
+        "minute": 43,
+        "second": 15
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 24,
+        "weekday": 4,
+        "dst": false,
+        "hour": 8,
+        "minute": 43,
+        "second": 18
+      }
+    },
+    "task.112": {
+      "task": "Create out of ammo sfx",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 24,
+        "weekday": 4,
+        "dst": false,
+        "hour": 8,
+        "minute": 43,
+        "second": 29
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 24,
+        "weekday": 4,
+        "dst": false,
+        "hour": 8,
+        "minute": 43,
+        "second": 31
+      }
+    },
+    "task.113": {
+      "task": "Create loot boxes animations",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 24,
+        "weekday": 4,
+        "dst": false,
+        "hour": 9,
+        "minute": 1,
+        "second": 36
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 24,
+        "weekday": 4,
+        "dst": false,
+        "hour": 9,
+        "minute": 1,
+        "second": 38
+      }
+    },
+    "task.97": {
+      "task": "Create stronger bullet types",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 10,
+        "minute": 4,
+        "second": 6
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 58,
+        "second": 54
+      }
+    },
+    "task.96": {
+      "task": "Create silver bullet types",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 10,
+        "minute": 3,
+        "second": 51
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 58,
+        "second": 57
+      }
+    },
+    "task.62": {
+      "task": "Add second jazz tune for band",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 11,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 54,
+        "second": 4
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 15,
+        "minute": 29,
+        "second": 30
+      }
+    },
+    "task.101": {
+      "task": "Implement levels dynamic music.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 10,
+        "minute": 6,
+        "second": 42
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 15,
+        "minute": 38,
+        "second": 33
+      }
+    },
+    "task.110": {
+      "task": "Create loot boxes",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 24,
+        "weekday": 4,
+        "dst": false,
+        "hour": 8,
+        "minute": 43,
+        "second": 7
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 21,
+        "minute": 47,
+        "second": 15
+      }
+    },
+    "task.114": {
+      "task": "Implement lot boxes gui and item selection",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 24,
+        "weekday": 4,
+        "dst": false,
+        "hour": 9,
+        "minute": 1,
+        "second": 57
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 22,
+        "minute": 56,
+        "second": 47
+      }
+    },
+    "task.116": {
+      "task": "Implement item box modifications of current inventory.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 59,
+        "second": 59
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 22,
+        "minute": 56,
+        "second": 58
+      }
+    },
+    "task.115": {
+      "task": "Add texts for bullets with magazine size, lore and ammo count",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 10,
+        "minute": 59,
+        "second": 44
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 23,
+        "minute": 16,
+        "second": 24
+      }
+    },
+    "task.117": {
+      "task": "Set colors for bullet casings for each bullet type.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 15,
+        "minute": 29,
+        "second": 51
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 26,
+        "weekday": 6,
+        "dst": false,
+        "hour": 3,
+        "minute": 17,
+        "second": 18
+      }
+    },
+    "task.107": {
+      "task": "Create different buttons for tutorial",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 17,
+        "minute": 42,
+        "second": 50
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 26,
+        "weekday": 6,
+        "dst": false,
+        "hour": 14,
+        "minute": 43,
+        "second": 32
+      }
+    },
+    "task.123": {
+      "task": "Make the bullet selection gui much clearer",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 27,
+        "weekday": 0,
+        "dst": false,
+        "hour": 11,
+        "minute": 34,
+        "second": 58
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 27,
+        "weekday": 0,
+        "dst": false,
+        "hour": 19,
+        "minute": 3,
+        "second": 46
+      }
+    },
+    "task.124": {
+      "task": "Change bullet selection from hold to menu",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 27,
+        "weekday": 0,
+        "dst": false,
+        "hour": 19,
+        "minute": 3,
+        "second": 55
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 28,
+        "weekday": 1,
+        "dst": false,
+        "hour": 13,
+        "minute": 10,
+        "second": 58
+      }
+    },
+    "task.125": {
+      "task": "Improve bullet selection GUI",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 28,
+        "weekday": 1,
+        "dst": false,
+        "hour": 13,
+        "minute": 11,
+        "second": 5
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 28,
+        "weekday": 1,
+        "dst": false,
+        "hour": 15,
+        "minute": 23,
+        "second": 6
+      }
+    },
+    "task.128": {
+      "task": "Make the item box more appealing.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 28,
+        "weekday": 1,
+        "dst": false,
+        "hour": 15,
+        "minute": 23,
+        "second": 58
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 28,
+        "weekday": 1,
+        "dst": false,
+        "hour": 15,
+        "minute": 34,
+        "second": 28
+      }
+    },
+    "task.118": {
+      "task": "Add bullet types to tutorial.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 15,
+        "minute": 30,
+        "second": 42
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 28,
+        "weekday": 1,
+        "dst": false,
+        "hour": 15,
+        "minute": 34,
+        "second": 47
+      }
+    },
+    "task.129": {
+      "task": "Create npc node.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 29,
+        "weekday": 2,
+        "dst": false,
+        "hour": 8,
+        "minute": 46,
+        "second": 38
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 1,
+        "minute": 5,
+        "second": 37
+      }
+    },
+    "task.100": {
+      "task": "Create friendly characters",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 10,
+        "minute": 5,
+        "second": 7
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 1,
+        "minute": 6,
+        "second": 0
+      }
+    },
+    "task.131": {
+      "task": "Implement conversation ignoring when conditions are met and talk hasn't started",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 10,
+        "minute": 44,
+        "second": 24
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 12,
+        "minute": 45,
+        "second": 53
+      }
+    },
+    "task.130": {
+      "task": "Create conversation starter animations. Make the bubbles appear after conversation cues have been met",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 1,
+        "minute": 7,
+        "second": 7
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 13,
+        "minute": 6,
+        "second": 29
+      }
+    },
+    "task.132": {
+      "task": "Improve conversation bubbles quality",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 13,
+        "minute": 6,
+        "second": 44
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 14,
+        "minute": 41,
+        "second": 28
+      }
+    },
+    "task.42": {
+      "task": "Create dialogue system.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 7,
+        "weekday": 1,
+        "dst": false,
+        "hour": 15,
+        "minute": 3,
+        "second": 52
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 14,
+        "minute": 41,
+        "second": 44
+      }
+    },
+    "task.102": {
+      "task": "Implement transition from jazz club to subway.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 10,
+        "minute": 7,
+        "second": 2
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 15,
+        "minute": 15,
+        "second": 11
+      }
+    },
+    "task.135": {
+      "task": "Implement fade out",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 15,
+        "minute": 22,
+        "second": 25
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 15,
+        "minute": 37,
+        "second": 42
+      }
+    },
+    "task.134": {
+      "task": "Add door, item, talk, and outer door GUI prompts.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 15,
+        "minute": 4,
+        "second": 3
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 23,
+        "minute": 31,
+        "second": 10
+      }
+    },
+    "task.88": {
+      "task": "Create subway level.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21,
+        "weekday": 1,
+        "dst": false,
+        "hour": 14,
+        "minute": 5,
+        "second": 14
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 0,
+        "minute": 27,
+        "second": 8
+      }
+    },
+    "task.104": {
+      "task": "Implement map selection screen.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 10,
+        "minute": 8,
+        "second": 12
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 0,
+        "minute": 27,
+        "second": 17
+      }
+    },
+    "task.106": {
+      "task": "Create GUI cues",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 17,
+        "minute": 42,
+        "second": 32
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 0,
+        "minute": 27,
+        "second": 25
+      }
+    },
+    "task.136": {
+      "task": "Add doors to subway doors",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 21,
+        "minute": 56,
+        "second": 34
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 22,
+        "minute": 5,
+        "second": 8
+      }
+    },
+    "task.137": {
+      "task": "Add backgrunds to subway levels",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 21,
+        "minute": 56,
+        "second": 46
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 22,
+        "minute": 9,
+        "second": 24
+      }
+    },
+    "task.141": {
+      "task": "Create title screen",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 21,
+        "minute": 57,
+        "second": 40
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 23,
+        "minute": 30,
+        "second": 16
+      }
+    },
+    "task.138": {
+      "task": "Create death mechanics",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 21,
+        "minute": 56,
+        "second": 54
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 0,
+        "minute": 17,
+        "second": 19
+      }
+    },
+    "task.147": {
+      "task": "If killed by wolf boss make it so the start text doesn't appear",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 0,
+        "minute": 9,
+        "second": 57
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 0,
+        "minute": 37,
+        "second": 4
+      }
+    },
+    "task.150": {
+      "task": "Sound mutes when hit.",
+      "type": "Bug",
+      "creation_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 1,
+        "minute": 0,
+        "second": 40
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 1,
+        "minute": 3,
+        "second": 33
+      }
+    },
+    "task.146": {
+      "task": "Add sound ambience modifier areas.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 22,
+        "minute": 1,
+        "second": 12
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 1,
+        "minute": 3,
+        "second": 44
+      }
+    },
+    "task.151": {
+      "task": "missing bullets bug. Bullets on loaded gun are lost if not shot before changing magazine.",
+      "type": "Bug",
+      "creation_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 1,
+        "minute": 34,
+        "second": 29
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 1,
+        "minute": 41,
+        "second": 14
+      }
+    },
+    "task.152": {
+      "task": "Improve bullet seleciton. Make sure the player knows which is selected.",
+      "type": "Bug",
+      "creation_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 1,
+        "minute": 41,
+        "second": 36
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 2,
+        "minute": 12,
+        "second": 52
+      }
+    },
+    "task.144": {
+      "task": "Add bullet count and reload guis",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 21,
+        "minute": 58,
+        "second": 17
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 2,
+        "minute": 35,
+        "second": 14
+      }
+    },
+    "task.122": {
+      "task": "Don't let the player reload when current bullet type is empty.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 23,
+        "minute": 29,
+        "second": 31
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 3,
+        "minute": 37,
+        "second": 47
+      }
+    },
+    "task.126": {
+      "task": "If player reloads when the magazine us not empty, the bullets are lost. Same when changing bullet type",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 28,
+        "weekday": 1,
+        "dst": false,
+        "hour": 15,
+        "minute": 23,
+        "second": 40
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 3,
+        "minute": 38,
+        "second": 4
+      }
+    },
+    "task.143": {
+      "task": "add gui selection sounds.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 21,
+        "minute": 58,
+        "second": 1
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 2,
+        "weekday": 6,
+        "dst": false,
+        "hour": 3,
+        "minute": 3,
+        "second": 7
+      }
+    },
+    "task.140": {
+      "task": "Create wolf boss music",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 21,
+        "minute": 57,
+        "second": 35
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 2,
+        "weekday": 6,
+        "dst": false,
+        "hour": 3,
+        "minute": 3,
+        "second": 12
+      }
+    },
+    "task.119": {
+      "task": "Boss music. Aha!",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 15,
+        "minute": 39,
+        "second": 1
+      },
+      "completion_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 2,
+        "weekday": 6,
+        "dst": false,
+        "hour": 3,
+        "minute": 3,
+        "second": 23
+      }
+    }
+  },
+  "pending": {
+    "task.19": {
+      "task": "duck mechanic",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 3,
+        "weekday": 4,
+        "dst": false,
+        "hour": 13,
+        "minute": 55,
+        "second": 32
+      }
+    },
+    "task.20": {
+      "task": "duck and shoot mechanic",
+      "type": "Feature",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 3,
+        "weekday": 4,
+        "dst": false,
+        "hour": 13,
+        "minute": 55,
+        "second": 41
+      }
+    },
+    "task.31": {
+      "task": "Players blood hit spark",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 4,
+        "weekday": 5,
+        "dst": false,
+        "hour": 23,
+        "minute": 26,
+        "second": 42
+      }
+    },
+    "task.36": {
+      "task": "Improve blood explode spark quality.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 7,
+        "weekday": 1,
+        "dst": false,
+        "hour": 9,
+        "minute": 22,
+        "second": 59
+      }
+    },
+    "task.37": {
+      "task": "Create wraith enemy",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 7,
+        "weekday": 1,
+        "dst": false,
+        "hour": 9,
+        "minute": 24,
+        "second": 44
+      }
+    },
+    "task.41": {
+      "task": "Create weapon safe mode for hunter.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 7,
+        "weekday": 1,
+        "dst": false,
+        "hour": 15,
+        "minute": 1,
+        "second": 53
+      }
+    },
+    "task.49": {
+      "task": "Implement werewolf throw attack.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 17,
+        "minute": 17,
+        "second": 23
+      }
+    },
+    "task.50": {
+      "task": "Implement werewolf ground pound attack.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "weekday": 2,
+        "dst": false,
+        "hour": 17,
+        "minute": 17,
+        "second": 36
+      }
+    },
+    "task.64": {
+      "task": "add jump buffering",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 12,
+        "weekday": 6,
+        "dst": false,
+        "hour": 19,
+        "minute": 38,
+        "second": 34
+      }
+    },
+    "task.70": {
+      "task": "the doors are using global_position!! So Level positioning logic is futille. that's it",
+      "type": "Remainder",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 15,
+        "weekday": 2,
+        "dst": false,
+        "hour": 12,
+        "minute": 27,
+        "second": 0
+      }
+    },
+    "task.72": {
+      "task": "add lamps destruction sound",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 16,
+        "weekday": 3,
+        "dst": false,
+        "hour": 3,
+        "minute": 52,
+        "second": 33
+      }
+    },
+    "task.74": {
+      "task": "Wolf stopped by wall when running. Gives a breather to the player.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 16,
+        "weekday": 3,
+        "dst": false,
+        "hour": 11,
+        "minute": 1,
+        "second": 11
+      }
+    },
+    "task.77": {
+      "task": "Add knock back when shooted",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 17,
+        "weekday": 4,
+        "dst": false,
+        "hour": 7,
+        "minute": 2,
+        "second": 52
+      }
+    },
+    "task.78": {
+      "task": "When reloading and walking and changing direction several times, the reloading animation gets stucked.",
+      "type": "Bug",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 17,
+        "weekday": 4,
+        "dst": false,
+        "hour": 23,
+        "minute": 10,
+        "second": 56
+      }
+    },
+    "task.81": {
+      "task": "fix camera shakes on levels that have camera limits. ",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 20,
+        "weekday": 0,
+        "dst": false,
+        "hour": 23,
+        "minute": 27,
+        "second": 13
+      }
+    },
+    "task.95": {
+      "task": "Make general boss",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 9,
+        "minute": 52,
+        "second": 6
+      }
+    },
+    "task.98": {
+      "task": "Create med kits.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 10,
+        "minute": 4,
+        "second": 17
+      }
+    },
+    "task.99": {
+      "task": "Create death mechanics",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 10,
+        "minute": 4,
+        "second": 54
+      }
+    },
+    "task.103": {
+      "task": "Implement title screen and in game menus",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 10,
+        "minute": 8,
+        "second": 2
+      }
+    },
+    "task.105": {
+      "task": "Create subway level assets.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 23,
+        "weekday": 3,
+        "dst": false,
+        "hour": 17,
+        "minute": 42,
+        "second": 4
+      }
+    },
+    "task.120": {
+      "task": "Add GUi bullet count to hud",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 23,
+        "minute": 29,
+        "second": 4
+      }
+    },
+    "task.121": {
+      "task": "Add gui RELOAD messages",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 25,
+        "weekday": 5,
+        "dst": false,
+        "hour": 23,
+        "minute": 29,
+        "second": 12
+      }
+    },
+    "task.127": {
+      "task": "Add a RELOAD gui message in the HUD",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 28,
+        "weekday": 1,
+        "dst": false,
+        "hour": 15,
+        "minute": 23,
+        "second": 49
+      }
+    },
+    "task.133": {
+      "task": "Add furniture and stuff to Becas office",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 30,
+        "weekday": 3,
+        "dst": false,
+        "hour": 14,
+        "minute": 59,
+        "second": 52
+      }
+    },
+    "task.139": {
+      "task": "Implement joy movement besides dpad controls",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 21,
+        "minute": 57,
+        "second": 20
+      }
+    },
+    "task.142": {
+      "task": "Create menus",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 21,
+        "minute": 57,
+        "second": 54
+      }
+    },
+    "task.145": {
+      "task": "Buff wolf boss and include new attack mechanics.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 10,
+        "day": 31,
+        "weekday": 4,
+        "dst": false,
+        "hour": 21,
+        "minute": 58,
+        "second": 42
+      }
+    },
+    "task.148": {
+      "task": "Add ending credits when killing the wolf.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 0,
+        "minute": 37,
+        "second": 26
+      }
+    },
+    "task.149": {
+      "task": "Pimp wolves stage.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2019,
+        "month": 11,
+        "day": 1,
+        "weekday": 5,
+        "dst": false,
+        "hour": 0,
+        "minute": 41,
+        "second": 23
+      }
+    }
+  },
+  "comp_order": [
+    "task.0",
+    "task.4",
+    "task.5",
+    "task.6",
+    "task.2",
+    "task.12",
+    "task.13",
+    "task.7",
+    "task.14",
+    "task.10",
+    "task.9",
+    "task.8",
+    "task.16",
+    "task.15",
+    "task.3",
+    "task.17",
+    "task.21",
+    "task.23",
+    "task.18",
+    "task.25",
+    "task.24",
+    "task.26",
+    "task.11",
+    "task.28",
+    "task.30",
+    "task.29",
+    "task.27",
+    "task.32",
+    "task.33",
+    "task.35",
+    "task.34",
+    "task.47",
+    "task.46",
+    "task.44",
+    "task.43",
+    "task.22",
+    "task.51",
+    "task.53",
+    "task.52",
+    "task.54",
+    "task.55",
+    "task.56",
+    "task.57",
+    "task.48",
+    "task.39",
+    "task.1",
+    "task.60",
+    "task.58",
+    "task.61",
+    "task.63",
+    "task.65",
+    "task.66",
+    "task.67",
+    "task.71",
+    "task.69",
+    "task.75",
+    "task.76",
+    "task.79",
+    "task.45",
+    "task.80",
+    "task.82",
+    "task.85",
+    "task.86",
+    "task.84",
+    "task.68",
+    "task.83",
+    "task.89",
+    "task.90",
+    "task.40",
+    "task.92",
+    "task.94",
+    "task.93",
+    "task.91",
+    "task.87",
+    "task.59",
+    "task.108",
+    "task.38",
+    "task.73",
+    "task.109",
+    "task.111",
+    "task.112",
+    "task.113",
+    "task.97",
+    "task.96",
+    "task.62",
+    "task.101",
+    "task.110",
+    "task.114",
+    "task.116",
+    "task.115",
+    "task.117",
+    "task.107",
+    "task.123",
+    "task.124",
+    "task.125",
+    "task.128",
+    "task.118",
+    "task.129",
+    "task.100",
+    "task.131",
+    "task.130",
+    "task.132",
+    "task.42",
+    "task.102",
+    "task.135",
+    "task.134",
+    "task.88",
+    "task.104",
+    "task.106",
+    "task.136",
+    "task.137",
+    "task.141",
+    "task.138",
+    "task.147",
+    "task.150",
+    "task.146",
+    "task.151",
+    "task.152",
+    "task.144",
+    "task.122",
+    "task.126",
+    "task.143",
+    "task.140",
+    "task.119"
+  ],
+  "pend_order": [
+    "task.19",
+    "task.20",
+    "task.31",
+    "task.36",
+    "task.37",
+    "task.41",
+    "task.49",
+    "task.50",
+    "task.64",
+    "task.70",
+    "task.72",
+    "task.74",
+    "task.77",
+    "task.78",
+    "task.81",
+    "task.95",
+    "task.98",
+    "task.99",
+    "task.103",
+    "task.105",
+    "task.120",
+    "task.121",
+    "task.127",
+    "task.133",
+    "task.139",
+    "task.142",
+    "task.145",
+    "task.148",
+    "task.149"
+  ]
+}

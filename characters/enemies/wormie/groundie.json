@@ -1,0 +1,133 @@
+{ "frames": {
+   "groundie 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 70, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 70, "h": 24 },
+    "sourceSize": { "w": 70, "h": 24 },
+    "duration": 100
+   },
+   "groundie 1.aseprite": {
+    "frame": { "x": 70, "y": 0, "w": 70, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 70, "h": 24 },
+    "sourceSize": { "w": 70, "h": 24 },
+    "duration": 100
+   },
+   "groundie 2.aseprite": {
+    "frame": { "x": 140, "y": 0, "w": 70, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 70, "h": 24 },
+    "sourceSize": { "w": 70, "h": 24 },
+    "duration": 100
+   },
+   "groundie 3.aseprite": {
+    "frame": { "x": 210, "y": 0, "w": 70, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 70, "h": 24 },
+    "sourceSize": { "w": 70, "h": 24 },
+    "duration": 100
+   },
+   "groundie 4.aseprite": {
+    "frame": { "x": 280, "y": 0, "w": 70, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 70, "h": 24 },
+    "sourceSize": { "w": 70, "h": 24 },
+    "duration": 100
+   },
+   "groundie 5.aseprite": {
+    "frame": { "x": 350, "y": 0, "w": 70, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 70, "h": 24 },
+    "sourceSize": { "w": 70, "h": 24 },
+    "duration": 100
+   },
+   "groundie 6.aseprite": {
+    "frame": { "x": 420, "y": 0, "w": 70, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 70, "h": 24 },
+    "sourceSize": { "w": 70, "h": 24 },
+    "duration": 100
+   },
+   "groundie 7.aseprite": {
+    "frame": { "x": 490, "y": 0, "w": 70, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 70, "h": 24 },
+    "sourceSize": { "w": 70, "h": 24 },
+    "duration": 100
+   },
+   "groundie 8.aseprite": {
+    "frame": { "x": 560, "y": 0, "w": 70, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 70, "h": 24 },
+    "sourceSize": { "w": 70, "h": 24 },
+    "duration": 100
+   },
+   "groundie 9.aseprite": {
+    "frame": { "x": 630, "y": 0, "w": 70, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 70, "h": 24 },
+    "sourceSize": { "w": 70, "h": 24 },
+    "duration": 100
+   },
+   "groundie 10.aseprite": {
+    "frame": { "x": 700, "y": 0, "w": 70, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 70, "h": 24 },
+    "sourceSize": { "w": 70, "h": 24 },
+    "duration": 100
+   },
+   "groundie 11.aseprite": {
+    "frame": { "x": 770, "y": 0, "w": 70, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 70, "h": 24 },
+    "sourceSize": { "w": 70, "h": 24 },
+    "duration": 100
+   },
+   "groundie 12.aseprite": {
+    "frame": { "x": 840, "y": 0, "w": 70, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 70, "h": 24 },
+    "sourceSize": { "w": 70, "h": 24 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.12.1",
+  "image": "groundie.png",
+  "format": "RGBA8888",
+  "size": { "w": 910, "h": 24 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Walk", "from": 0, "to": 7, "direction": "forward" },
+   { "name": "ChangeDirection", "from": 8, "to": 12, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Layer 5 Copy", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 5 Copy Copy", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 5 Copy", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 5 Copy Copy", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 4", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 4 Copy", "opacity": 255, "blendMode": "normal" },
+   { "name": "head", "opacity": 255, "blendMode": "normal" },
+   { "name": "middle eye", "opacity": 255, "blendMode": "normal" },
+   { "name": "bottom eye", "opacity": 255, "blendMode": "normal" },
+   { "name": "top eye", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

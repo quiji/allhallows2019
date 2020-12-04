@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://main.gd" type="Script" id=1]
+
+[node name="main" type="Node"]
+script = ExtResource( 1 )
+
+[node name="backgorund" type="CanvasLayer" parent="."]
+editor/display_folded = true
+layer = -2
+
+[node name="background" type="ColorRect" parent="backgorund"]
+color = Color( 0, 0, 0, 1 )
+
+[node name="screen" type="Node" parent="."]
+
+[node name="loadtimer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="timeout" from="loadtimer" to="." method="_on_loadtimer_timeout"]

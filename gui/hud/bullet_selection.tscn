@@ -1,0 +1,190 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://gui/hud/bullet_selection.gd" type="Script" id=1]
+[ext_resource path="res://gui/hud/ingame_menu_bubble.png" type="Texture" id=2]
+[ext_resource path="res://gui/hud/icon_selector.tscn" type="PackedScene" id=3]
+[ext_resource path="res://gui/fonts/Zankoku.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://gui/hud/bullet_size_icon.tscn" type="PackedScene" id=5]
+[ext_resource path="res://gui/hud/lore_text.png" type="Texture" id=6]
+[ext_resource path="res://gui/fonts/RivalryPro.ttf" type="DynamicFontData" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+extra_spacing_char = 3
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 7 )
+
+[node name="bullet_selection" type="CenterContainer"]
+pause_mode = 2
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="panel" type="NinePatchRect" parent="."]
+margin_left = 170.0
+margin_top = 90.0
+margin_right = 470.0
+margin_bottom = 270.0
+grow_horizontal = 2
+grow_vertical = 2
+rect_min_size = Vector2( 300, 180 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 2 )
+patch_margin_left = 10
+patch_margin_top = 10
+patch_margin_right = 10
+patch_margin_bottom = 10
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+
+[node name="bullet_icons" type="VBoxContainer" parent="panel"]
+anchor_bottom = 1.0
+
+[node name="container" type="Control" parent="panel/bullet_icons"]
+margin_right = 62.0
+margin_bottom = 144.0
+rect_min_size = Vector2( 62, 144 )
+
+[node name="margins" type="MarginContainer" parent="panel/bullet_icons/container"]
+margin_right = 40.0
+margin_bottom = 40.0
+custom_constants/margin_right = 15
+custom_constants/margin_top = 14
+custom_constants/margin_left = 17
+
+[node name="bullet_list" type="VBoxContainer" parent="panel/bullet_icons/container/margins"]
+margin_left = 17.0
+margin_top = 14.0
+margin_right = 47.0
+margin_bottom = 158.0
+custom_constants/separation = 8
+
+[node name="regular" parent="panel/bullet_icons/container/margins/bullet_list" instance=ExtResource( 3 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 30.0
+margin_bottom = 30.0
+
+[node name="stronger" parent="panel/bullet_icons/container/margins/bullet_list" instance=ExtResource( 3 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 38.0
+margin_right = 30.0
+margin_bottom = 68.0
+bullet_type = 1
+
+[node name="obsidian" parent="panel/bullet_icons/container/margins/bullet_list" instance=ExtResource( 3 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 76.0
+margin_right = 30.0
+margin_bottom = 106.0
+bullet_type = 2
+
+[node name="silver" parent="panel/bullet_icons/container/margins/bullet_list" instance=ExtResource( 3 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 114.0
+margin_right = 30.0
+margin_bottom = 144.0
+bullet_type = 3
+
+[node name="margins" type="MarginContainer" parent="panel"]
+editor/display_folded = true
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -233.0
+margin_bottom = -17.0
+custom_constants/margin_right = 17
+custom_constants/margin_top = 14
+custom_constants/margin_bottom = 14
+
+[node name="vbox" type="VBoxContainer" parent="panel/margins"]
+margin_top = 14.0
+margin_right = 216.0
+margin_bottom = 166.0
+
+[node name="bullet_info" type="VBoxContainer" parent="panel/margins/vbox"]
+margin_right = 216.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 0, 38 )
+
+[node name="bullet_name" type="Label" parent="panel/margins/vbox/bullet_info"]
+margin_right = 216.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.172549, 0.0666667, 0.172549, 1 )
+text = "Bullet name"
+
+[node name="size_bar" type="Control" parent="panel/margins/vbox/bullet_info"]
+editor/display_folded = true
+margin_top = 18.0
+margin_right = 216.0
+margin_bottom = 36.0
+rect_min_size = Vector2( 0, 18 )
+
+[node name="hbox" type="HBoxContainer" parent="panel/margins/vbox/bullet_info/size_bar"]
+editor/display_folded = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+alignment = 1
+
+[node name="bullet" parent="panel/margins/vbox/bullet_info/size_bar/hbox" instance=ExtResource( 5 )]
+margin_left = 20.0
+margin_right = 60.0
+
+[node name="blank" type="Control" parent="panel/margins/vbox/bullet_info/size_bar/hbox"]
+margin_left = 64.0
+margin_right = 84.0
+margin_bottom = 18.0
+rect_min_size = Vector2( 20, 0 )
+
+[node name="magazines" parent="panel/margins/vbox/bullet_info/size_bar/hbox" instance=ExtResource( 5 )]
+margin_left = 88.0
+margin_right = 128.0
+icon_type = 1
+
+[node name="blank2" type="Control" parent="panel/margins/vbox/bullet_info/size_bar/hbox"]
+margin_left = 132.0
+margin_right = 152.0
+margin_bottom = 18.0
+rect_min_size = Vector2( 20, 0 )
+
+[node name="magazine_size" parent="panel/margins/vbox/bullet_info/size_bar/hbox" instance=ExtResource( 5 )]
+margin_left = 156.0
+margin_right = 196.0
+icon_type = 2
+
+[node name="lore" type="NinePatchRect" parent="panel/margins/vbox"]
+margin_top = 42.0
+margin_right = 216.0
+margin_bottom = 152.0
+rect_min_size = Vector2( 0, 110 )
+texture = ExtResource( 6 )
+patch_margin_left = 10
+patch_margin_top = 10
+patch_margin_right = 10
+patch_margin_bottom = 10
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="margin" type="MarginContainer" parent="panel/margins/vbox/lore"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/margin_right = 14
+custom_constants/margin_top = 12
+custom_constants/margin_left = 14
+custom_constants/margin_bottom = 12
+
+[node name="text" type="RichTextLabel" parent="panel/margins/vbox/lore/margin"]
+margin_left = 14.0
+margin_top = 12.0
+margin_right = 202.0
+margin_bottom = 98.0
+custom_fonts/normal_font = SubResource( 2 )
+custom_colors/default_color = Color( 0.835294, 0.929412, 0.831373, 1 )
+bbcode_enabled = true
+

@@ -1,0 +1,27 @@
+{ "frames": {
+   "general_shirt.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 68, "h": 74 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 68, "h": 74 },
+    "sourceSize": { "w": 68, "h": 74 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.12.1",
+  "image": "shirt.png",
+  "format": "RGBA8888",
+  "size": { "w": 128, "h": 128 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "rg-Idle", "from": 0, "to": 0, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "shirt", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

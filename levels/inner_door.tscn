@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://levels/inner_door.gd" type="Script" id=1]
+[ext_resource path="res://sfx/wood_door_open.tscn" type="PackedScene" id=2]
+
+[node name="inner_door" type="Area2D"]
+monitorable = false
+collision_layer = 0
+collision_mask = 4
+script = ExtResource( 1 )
+
+[node name="wood_door_open" parent="." instance=ExtResource( 2 )]
+
+[node name="cue_position" type="Position2D" parent="."]
+position = Vector2( 0, -80 )
+

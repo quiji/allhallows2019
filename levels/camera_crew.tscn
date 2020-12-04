@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://levels/camera_crew.gd" type="Script" id=1]
+[ext_resource path="res://gui/camera/camera_man.gd" type="Script" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 2.0
+
+[node name="camera_crew" type="Node2D"]
+script = ExtResource( 1 )
+limit_right = 10000000
+limit_top = -10000000
+limit_bottom = 370
+
+[node name="camera_man" type="Camera2D" parent="."]
+rotating = true
+current = true
+drag_margin_left = 0.05
+drag_margin_right = 0.05
+editor_draw_limits = true
+script = ExtResource( 2 )
+
+[node name="limit_area_sensor" type="Area2D" parent="."]
+monitorable = false
+collision_layer = 16
+collision_mask = 0
+
+[node name="collision" type="CollisionShape2D" parent="limit_area_sensor"]
+shape = SubResource( 1 )
+

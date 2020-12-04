@@ -1,0 +1,148 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://levels/Level.tscn" type="PackedScene" id=1]
+[ext_resource path="res://levels/general/wolf_station.gd" type="Script" id=2]
+[ext_resource path="res://levels/tiles/walls.tres" type="TileSet" id=3]
+[ext_resource path="res://characters/playable/hunter/hunter.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/enemies/werewolf/werewolf.tscn" type="PackedScene" id=5]
+[ext_resource path="res://levels/dialogue.tscn" type="PackedScene" id=6]
+[ext_resource path="res://levels/cinematic.tscn" type="PackedScene" id=7]
+[ext_resource path="res://levels/cinematic_pieces/Condition.tscn" type="PackedScene" id=8]
+[ext_resource path="res://levels/cinematic_pieces/enable_actor.tscn" type="PackedScene" id=9]
+[ext_resource path="res://levels/cinematic_pieces/player_trigger.tscn" type="PackedScene" id=10]
+[ext_resource path="res://levels/cinematic_pieces/player_to_position.tscn" type="PackedScene" id=11]
+[ext_resource path="res://levels/cinematic_pieces/play_talk.tscn" type="PackedScene" id=12]
+[ext_resource path="res://levels/cinematic_pieces/actor_anim.tscn" type="PackedScene" id=13]
+[ext_resource path="res://levels/cinematic_pieces/player_restore.tscn" type="PackedScene" id=14]
+[ext_resource path="res://levels/cinematic_pieces/gamestate_change.tscn" type="PackedScene" id=15]
+[ext_resource path="res://levels/cinematic_pieces/start_tune.tscn" type="PackedScene" id=16]
+[ext_resource path="res://levels/CameraBox.tscn" type="PackedScene" id=17]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 59, 50 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 422, 172 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 471, 208 )
+
+[node name="wolf_station" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+player_node = NodePath("hunter")
+
+[node name="blocks" parent="." index="0"]
+tile_data = PoolIntArray( 65527, 0, 0, 65528, 0, 0, 40, 0, 0, 41, 0, 0, 131063, 0, 0, 131064, 0, 0, 65576, 0, 0, 65577, 0, 0, 196599, 0, 0, 196600, 0, 0, 131112, 0, 0, 131113, 0, 0, 262135, 0, 0, 262136, 0, 0, 196648, 0, 0, 196649, 0, 0, 327671, 0, 0, 327672, 0, 0, 262184, 0, 0, 262185, 0, 0, 393207, 0, 0, 393208, 0, 0, 327720, 0, 0, 327721, 0, 0, 458743, 0, 0, 458744, 0, 0, 393256, 0, 0, 393257, 0, 0, 524279, 0, 0, 524280, 0, 0, 458792, 0, 0, 458793, 0, 0, 589815, 0, 0, 589816, 0, 0, 524328, 0, 0, 524329, 0, 0, 655351, 0, 0, 655352, 0, 0, 589864, 0, 0, 589865, 0, 0, 720887, 0, 0, 720888, 0, 0, 655400, 0, 0, 655401, 0, 0, 786423, 0, 0, 786424, 0, 0, 720936, 0, 0, 720937, 0, 0, 851959, 0, 0, 851960, 0, 0, 786472, 0, 0, 786473, 0, 0, 917495, 0, 0, 917496, 0, 0, 852008, 0, 0, 852009, 0, 0, 983031, 0, 0, 983032, 0, 0, 917544, 0, 0, 917545, 0, 0, 1048567, 0, 0, 1048568, 0, 0, 983080, 0, 0, 983081, 0, 0, 1114103, 0, 0, 1114104, 0, 0, 1048616, 0, 0, 1048617, 0, 0, 1179639, 0, 0, 1179640, 0, 0, 1179641, 0, 0, 1179642, 0, 0, 1179643, 0, 0, 1179644, 0, 0, 1179645, 0, 0, 1179646, 0, 0, 1179647, 0, 0, 1114112, 0, 0, 1114113, 0, 0, 1114114, 0, 0, 1114115, 0, 0, 1114116, 0, 0, 1114117, 0, 0, 1114118, 0, 0, 1114119, 0, 0, 1114120, 0, 0, 1114121, 0, 0, 1114122, 0, 0, 1114123, 0, 0, 1114124, 0, 0, 1114125, 0, 0, 1114126, 0, 0, 1114127, 0, 0, 1114128, 0, 0, 1114129, 0, 0, 1114130, 0, 0, 1114131, 0, 0, 1114132, 0, 0, 1114133, 0, 0, 1114134, 0, 0, 1114135, 0, 0, 1114136, 0, 0, 1114137, 0, 0, 1114138, 0, 0, 1114139, 0, 0, 1114140, 0, 0, 1114141, 0, 0, 1114142, 0, 0, 1114143, 0, 0, 1114144, 0, 0, 1114145, 0, 0, 1114146, 0, 0, 1114147, 0, 0, 1114148, 0, 0, 1114149, 0, 0, 1114150, 0, 0, 1114151, 0, 0, 1114152, 0, 0, 1114153, 0, 0 )
+
+[node name="walls" type="TileMap" parent="." index="1"]
+tile_set = ExtResource( 3 )
+cell_size = Vector2( 16, 16 )
+collision_layer = 3
+collision_mask = 0
+format = 1
+tile_data = PoolIntArray( -262148, 7, 0, -262147, 7, 0, -262146, 7, 0, -262145, 7, 0, -327680, 7, 0, -327679, 7, 0, -327678, 7, 0, -327677, 7, 0, -327654, 7, 0, -327653, 7, 0, -327652, 7, 0, -327651, 7, 0, -327650, 7, 0, -327649, 7, 0, -327648, 7, 0, -327647, 7, 0, -327646, 7, 0, -327645, 7, 0, -327644, 7, 0, -327643, 7, 0, -327642, 7, 0, -327641, 7, 0, -327640, 7, 0, -196618, 7, 0, -196617, 7, 0, -196616, 7, 0, -196615, 7, 0, -196614, 7, 0, -196613, 7, 0, -196612, 7, 0, -196611, 7, 0, -196610, 7, 0, -196609, 7, 0, -262144, 7, 0, -262143, 7, 0, -262142, 7, 0, -262141, 7, 0, -262140, 7, 0, -262139, 7, 0, -262138, 7, 0, -262137, 7, 0, -262136, 7, 0, -262135, 7, 0, -262134, 7, 0, -262133, 7, 0, -262132, 7, 0, -262131, 7, 0, -262130, 7, 0, -262129, 7, 0, -262128, 7, 0, -262127, 7, 0, -262126, 7, 0, -262125, 7, 0, -262124, 7, 0, -262123, 7, 0, -262122, 7, 0, -262121, 7, 0, -262120, 7, 0, -262119, 7, 0, -262118, 7, 0, -262117, 7, 0, -262116, 7, 0, -262115, 7, 0, -262114, 7, 0, -262113, 7, 0, -262112, 7, 0, -262111, 7, 0, -262110, 7, 0, -262109, 7, 0, -262108, 7, 0, -262107, 7, 0, -262106, 7, 0, -262105, 7, 0, -262104, 7, 0, -262103, 7, 0, -262102, 7, 0, -131082, 7, 0, -131081, 7, 0, -131080, 7, 0, -131079, 7, 0, -131078, 7, 0, -131077, 7, 0, -131076, 7, 0, -131075, 7, 0, -131074, 7, 0, -131073, 7, 0, -196608, 7, 0, -196607, 7, 0, -196606, 7, 0, -196605, 7, 0, -196604, 7, 0, -196603, 7, 0, -196602, 7, 0, -196601, 7, 0, -196600, 7, 0, -196599, 7, 0, -196598, 7, 0, -196597, 7, 0, -196596, 7, 0, -196595, 7, 0, -196594, 7, 0, -196593, 7, 0, -196592, 7, 0, -196591, 7, 0, -196590, 7, 0, -196589, 7, 0, -196588, 7, 0, -196587, 7, 0, -196586, 7, 0, -196585, 7, 0, -196584, 7, 0, -196583, 7, 0, -196582, 7, 0, -196581, 7, 0, -196580, 7, 0, -196579, 7, 0, -196578, 7, 0, -196577, 7, 0, -196576, 7, 0, -196575, 7, 0, -196574, 7, 0, -196573, 7, 0, -196572, 7, 0, -196571, 7, 0, -196570, 7, 0, -196569, 7, 0, -196568, 7, 0, -196567, 7, 0, -196566, 7, 0, -65546, 7, 0, -65545, 7, 0, -65544, 7, 0, -65543, 7, 0, -65542, 7, 0, -65541, 7, 0, -65540, 7, 0, -65539, 7, 0, -65538, 7, 0, -65537, 7, 0, -131072, 7, 0, -131071, 7, 0, -131070, 7, 0, -131069, 7, 0, -131068, 7, 0, -131067, 7, 0, -131066, 7, 0, -131065, 7, 0, -131064, 7, 0, -131063, 7, 0, -131062, 7, 0, -131061, 7, 0, -131060, 7, 0, -131059, 7, 0, -131058, 7, 0, -131057, 7, 0, -131056, 7, 0, -131055, 7, 0, -131054, 7, 0, -131053, 7, 0, -131052, 7, 0, -131051, 7, 0, -131050, 7, 0, -131049, 7, 0, -131048, 7, 0, -131047, 7, 0, -131046, 7, 0, -131045, 7, 0, -131044, 7, 0, -131043, 7, 0, -131042, 7, 0, -131041, 7, 0, -131040, 7, 0, -131039, 7, 0, -131038, 7, 0, -131037, 7, 0, -131036, 7, 0, -131035, 7, 0, -131034, 7, 0, -131033, 7, 0, -131032, 7, 0, -131031, 7, 0, -131030, 7, 0, -10, 7, 0, -9, 7, 0, -8, 7, 0, -7, 7, 0, -6, 7, 0, -5, 7, 0, -4, 7, 0, -3, 7, 0, -2, 7, 0, -1, 7, 0, -65536, 7, 0, -65535, 7, 0, -65534, 7, 0, -65533, 7, 0, -65532, 7, 0, -65531, 7, 0, -65530, 7, 0, -65529, 7, 0, -65528, 7, 0, -65527, 7, 0, -65526, 7, 0, -65525, 7, 0, -65524, 7, 0, -65523, 7, 0, -65522, 7, 0, -65521, 7, 0, -65520, 7, 0, -65519, 7, 0, -65518, 7, 0, -65517, 7, 0, -65516, 7, 0, -65515, 7, 0, -65514, 7, 0, -65513, 7, 0, -65512, 7, 0, -65511, 7, 0, -65510, 7, 0, -65509, 7, 0, -65508, 7, 0, -65507, 7, 0, -65506, 7, 0, -65505, 7, 0, -65504, 7, 0, -65503, 7, 0, -65502, 7, 0, -65501, 7, 0, -65500, 7, 0, -65499, 7, 0, -65498, 7, 0, -65497, 7, 0, -65496, 7, 0, -65495, 7, 0, -65494, 7, 0, 65526, 7, 0, 65527, 7, 0, 65528, 2, 0, 65529, 4, 0, 65530, 4, 0, 65531, 4, 0, 65532, 4, 0, 65533, 4, 0, 65534, 4, 0, 65535, 4, 0, 0, 4, 0, 1, 4, 0, 2, 4, 0, 3, 4, 0, 4, 4, 0, 5, 4, 0, 6, 4, 0, 7, 4, 0, 8, 4, 0, 9, 4, 0, 10, 4, 0, 11, 4, 0, 12, 4, 0, 13, 4, 0, 14, 4, 0, 15, 4, 0, 16, 4, 0, 17, 4, 0, 18, 4, 0, 19, 4, 0, 20, 4, 0, 21, 4, 0, 22, 4, 0, 23, 4, 0, 24, 4, 0, 25, 4, 0, 26, 4, 0, 27, 4, 0, 28, 4, 0, 29, 4, 0, 30, 4, 0, 31, 4, 0, 32, 4, 0, 33, 4, 0, 34, 4, 0, 35, 4, 0, 36, 4, 0, 37, 4, 0, 38, 4, 0, 39, 4, 0, 40, 3, 0, 41, 7, 0, 42, 7, 0, 131062, 7, 0, 131063, 7, 0, 131064, 0, 0, 65576, 1, 0, 65577, 7, 0, 65578, 7, 0, 196598, 7, 0, 196599, 7, 0, 196600, 0, 0, 131112, 1, 0, 131113, 7, 0, 131114, 7, 0, 262134, 7, 0, 262135, 7, 0, 262136, 0, 0, 196648, 1, 0, 196649, 7, 0, 196650, 7, 0, 327670, 7, 0, 327671, 7, 0, 327672, 0, 0, 262184, 1, 0, 262185, 7, 0, 262186, 7, 0, 393206, 7, 0, 393207, 7, 0, 393208, 0, 0, 327720, 1, 0, 327721, 7, 0, 327722, 7, 0, 458742, 7, 0, 458743, 7, 0, 458744, 0, 0, 393256, 1, 0, 393257, 7, 0, 393258, 7, 0, 524278, 7, 0, 524279, 7, 0, 524280, 0, 0, 458792, 1, 0, 458793, 7, 0, 458794, 7, 0, 589814, 7, 0, 589815, 7, 0, 589816, 0, 0, 524328, 1, 0, 524329, 7, 0, 524330, 7, 0, 655350, 7, 0, 655351, 7, 0, 655352, 0, 0, 589864, 1, 0, 589865, 7, 0, 589866, 7, 0, 720886, 7, 0, 720887, 7, 0, 720888, 0, 0, 655400, 1, 0, 655401, 7, 0, 655402, 7, 0, 786422, 7, 0, 786423, 7, 0, 786424, 0, 0, 720936, 1, 0, 720937, 7, 0, 720938, 7, 0, 851958, 7, 0, 851959, 7, 0, 851960, 0, 0, 786472, 1, 0, 786473, 7, 0, 786474, 7, 0, 917494, 7, 0, 917495, 7, 0, 917496, 0, 0, 852008, 1, 0, 852009, 7, 0, 852010, 7, 0, 983030, 7, 0, 983031, 7, 0, 983032, 0, 0, 917544, 1, 0, 917545, 7, 0, 917546, 7, 0, 1048566, 7, 0, 1048567, 7, 0, 1048568, 0, 0, 983080, 1, 0, 983081, 7, 0, 983082, 7, 0, 1114102, 7, 0, 1114103, 7, 0, 1114104, 0, 0, 1048616, 1, 0, 1048617, 7, 0, 1048618, 7, 0, 1179638, 7, 0, 1179639, 7, 0, 1179640, 8, 0, 1179641, 10, 0, 1179642, 10, 0, 1179643, 10, 0, 1179644, 10, 0, 1179645, 10, 0, 1179646, 10, 0, 1179647, 10, 0, 1114112, 10, 0, 1114113, 10, 0, 1114114, 10, 0, 1114115, 10, 0, 1114116, 10, 0, 1114117, 10, 0, 1114118, 10, 0, 1114119, 10, 0, 1114120, 10, 0, 1114121, 10, 0, 1114122, 10, 0, 1114123, 10, 0, 1114124, 10, 0, 1114125, 10, 0, 1114126, 10, 0, 1114127, 10, 0, 1114128, 10, 0, 1114129, 10, 0, 1114130, 10, 0, 1114131, 10, 0, 1114132, 10, 0, 1114133, 10, 0, 1114134, 10, 0, 1114135, 10, 0, 1114136, 10, 0, 1114137, 10, 0, 1114138, 10, 0, 1114139, 10, 0, 1114140, 10, 0, 1114141, 10, 0, 1114142, 10, 0, 1114143, 10, 0, 1114144, 10, 0, 1114145, 10, 0, 1114146, 10, 0, 1114147, 10, 0, 1114148, 10, 0, 1114149, 10, 0, 1114150, 10, 0, 1114151, 10, 0, 1114152, 9, 0, 1114153, 7, 0, 1114154, 7, 0 )
+
+[node name="hunter" parent="." index="2" instance=ExtResource( 4 )]
+position = Vector2( 38, 271 )
+
+[node name="werewolf" parent="." index="3" instance=ExtResource( 5 )]
+position = Vector2( 308, 272 )
+likes_to_talk = true
+enabled = false
+
+[node name="werewolf2" parent="." index="4" instance=ExtResource( 5 )]
+position = Vector2( 308, 272 )
+enabled = false
+
+[node name="camera_crew" parent="." index="6"]
+limit_right = 480
+limit_bottom = 288
+
+[node name="dialogue" parent="." index="7" instance=ExtResource( 6 )]
+text = "[
+	{\"werewolf\": \"This place is off limits!\"},
+	{\"hunter\": \"I see, and why is that?\"},
+	{\"werewolf\": \"The military is overseeing the security of this area.\"},
+	{\"werewolf\": \"The subway's integrity is compromised.\"},
+	{\"hunter\": \"That's a shame...\"},
+	{\"werewolf\": \"General orders were to shoot intruders on sight.\"},
+	{\"werewolf\": \"But you might stay. I'm bored...\"},
+	{\"werewolf\": \"And I'm starting to get... kinda... hungry.\"},
+	{\"hunter\": \"I see. Let's do this.\"}
+]"
+
+[node name="hud" parent="." index="8"]
+player_node = NodePath("../../wolf_station/hunter")
+
+[node name="wolf_cinematic" parent="." index="9" instance=ExtResource( 7 )]
+player_node = NodePath("../../wolf_station/hunter")
+camera_crew_node = NodePath("../../wolf_station/camera_crew")
+
+[node name="if_not_first_time" parent="wolf_cinematic" index="0" instance=ExtResource( 8 )]
+editor/display_folded = true
+gamestate_condition_variable = "wolf_visited"
+
+[node name="enable_actor" parent="wolf_cinematic/if_not_first_time" index="0" instance=ExtResource( 9 )]
+actor_path = NodePath("../../../../wolf_station/werewolf2")
+
+[node name="if_first_time" parent="wolf_cinematic" index="1" instance=ExtResource( 8 )]
+editor/display_folded = true
+gamestate_not_condition_variable = "wolf_visited"
+
+[node name="enable_actor" parent="wolf_cinematic/if_first_time" index="0" instance=ExtResource( 9 )]
+actor_path = NodePath("../../../../wolf_station/werewolf")
+
+[node name="player_trigger" parent="wolf_cinematic/if_first_time" index="1" instance=ExtResource( 10 )]
+editor/display_folded = true
+
+[node name="collision" type="CollisionShape2D" parent="wolf_cinematic/if_first_time/player_trigger" index="0"]
+position = Vector2( 61, 227 )
+shape = SubResource( 1 )
+
+[node name="player_to_position" parent="wolf_cinematic/if_first_time" index="2" instance=ExtResource( 11 )]
+editor/display_folded = true
+player_node = NodePath("../../../../wolf_station/hunter")
+camera_crew_node = NodePath("../../../../wolf_station/camera_crew")
+
+[node name="player_pos" type="Position2D" parent="wolf_cinematic/if_first_time/player_to_position" index="0"]
+position = Vector2( 178, 272 )
+
+[node name="camera_pos" type="Position2D" parent="wolf_cinematic/if_first_time/player_to_position" index="1"]
+position = Vector2( 243, 272 )
+
+[node name="play_talk" parent="wolf_cinematic/if_first_time" index="3" instance=ExtResource( 12 )]
+gui_node = NodePath("../../../../wolf_station/hud")
+talk_node = NodePath("../../../../wolf_station/dialogue")
+
+[node name="actor_anim" parent="wolf_cinematic/if_first_time" index="4" instance=ExtResource( 13 )]
+actor_path = NodePath("../../../../wolf_station/werewolf")
+method_name = "transformate"
+
+[node name="player_restore" parent="wolf_cinematic/if_first_time" index="5" instance=ExtResource( 14 )]
+player_node = NodePath("../../../../wolf_station/hunter")
+camera_crew_node = NodePath("../../../../wolf_station/camera_crew")
+
+[node name="gamestate_change" parent="wolf_cinematic/if_first_time" index="6" instance=ExtResource( 15 )]
+property_name = "wolf_visited"
+new_value = true
+
+[node name="start_tune" parent="wolf_cinematic" index="2" instance=ExtResource( 16 )]
+tune_name = "general_fight"
+
+[node name="cb_room" parent="." index="10" instance=ExtResource( 17 )]
+
+[node name="collision" type="CollisionShape2D" parent="cb_room" index="0"]
+position = Vector2( 266, 115 )
+shape = SubResource( 2 )
+
+[node name="wolf_audio_area" type="Area2D" parent="." index="11"]
+position = Vector2( 257, 106 )
+monitorable = false
+collision_layer = 8
+collision_mask = 8
+audio_bus_override = true
+audio_bus_name = "ClubSfx"
+
+[node name="collison" type="CollisionShape2D" parent="wolf_audio_area" index="0"]
+shape = SubResource( 3 )
+

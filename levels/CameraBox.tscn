@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://levels/CameraBox.gd" type="Script" id=1]
+
+[node name="CameraBox" type="Area2D"]
+monitoring = false
+collision_layer = 0
+collision_mask = 16
+script = ExtResource( 1 )
+

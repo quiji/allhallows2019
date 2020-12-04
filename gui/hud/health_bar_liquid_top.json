@@ -1,0 +1,124 @@
+{ "frames": {
+   "health_bar_liquid_top 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 16, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 7 },
+    "sourceSize": { "w": 16, "h": 7 },
+    "duration": 100
+   },
+   "health_bar_liquid_top 1.aseprite": {
+    "frame": { "x": 16, "y": 0, "w": 16, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 7 },
+    "sourceSize": { "w": 16, "h": 7 },
+    "duration": 100
+   },
+   "health_bar_liquid_top 2.aseprite": {
+    "frame": { "x": 32, "y": 0, "w": 16, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 7 },
+    "sourceSize": { "w": 16, "h": 7 },
+    "duration": 100
+   },
+   "health_bar_liquid_top 3.aseprite": {
+    "frame": { "x": 48, "y": 0, "w": 16, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 7 },
+    "sourceSize": { "w": 16, "h": 7 },
+    "duration": 100
+   },
+   "health_bar_liquid_top 4.aseprite": {
+    "frame": { "x": 0, "y": 7, "w": 16, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 7 },
+    "sourceSize": { "w": 16, "h": 7 },
+    "duration": 100
+   },
+   "health_bar_liquid_top 5.aseprite": {
+    "frame": { "x": 16, "y": 7, "w": 16, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 7 },
+    "sourceSize": { "w": 16, "h": 7 },
+    "duration": 100
+   },
+   "health_bar_liquid_top 6.aseprite": {
+    "frame": { "x": 32, "y": 7, "w": 16, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 7 },
+    "sourceSize": { "w": 16, "h": 7 },
+    "duration": 100
+   },
+   "health_bar_liquid_top 7.aseprite": {
+    "frame": { "x": 48, "y": 7, "w": 16, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 7 },
+    "sourceSize": { "w": 16, "h": 7 },
+    "duration": 100
+   },
+   "health_bar_liquid_top 8.aseprite": {
+    "frame": { "x": 0, "y": 14, "w": 16, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 7 },
+    "sourceSize": { "w": 16, "h": 7 },
+    "duration": 100
+   },
+   "health_bar_liquid_top 9.aseprite": {
+    "frame": { "x": 16, "y": 14, "w": 16, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 7 },
+    "sourceSize": { "w": 16, "h": 7 },
+    "duration": 100
+   },
+   "health_bar_liquid_top 10.aseprite": {
+    "frame": { "x": 32, "y": 14, "w": 16, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 7 },
+    "sourceSize": { "w": 16, "h": 7 },
+    "duration": 100
+   },
+   "health_bar_liquid_top 11.aseprite": {
+    "frame": { "x": 48, "y": 14, "w": 16, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 7 },
+    "sourceSize": { "w": 16, "h": 7 },
+    "duration": 100
+   },
+   "health_bar_liquid_top 12.aseprite": {
+    "frame": { "x": 0, "y": 21, "w": 16, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 7 },
+    "sourceSize": { "w": 16, "h": 7 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.12.1",
+  "image": "health_bar_liquid_top.png",
+  "format": "RGBA8888",
+  "size": { "w": 64, "h": 32 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "move", "from": 0, "to": 11, "direction": "forward" },
+   { "name": "Still", "from": 12, "to": 12, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

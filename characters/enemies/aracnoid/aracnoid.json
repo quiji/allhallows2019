@@ -1,0 +1,207 @@
+{ "frames": {
+   "aracnoid 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 200
+   },
+   "aracnoid 1.aseprite": {
+    "frame": { "x": 60, "y": 0, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 200
+   },
+   "aracnoid 2.aseprite": {
+    "frame": { "x": 120, "y": 0, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 3.aseprite": {
+    "frame": { "x": 180, "y": 0, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 4.aseprite": {
+    "frame": { "x": 240, "y": 0, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 5.aseprite": {
+    "frame": { "x": 300, "y": 0, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 6.aseprite": {
+    "frame": { "x": 360, "y": 0, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 7.aseprite": {
+    "frame": { "x": 420, "y": 0, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 8.aseprite": {
+    "frame": { "x": 0, "y": 46, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 9.aseprite": {
+    "frame": { "x": 60, "y": 46, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 10.aseprite": {
+    "frame": { "x": 120, "y": 46, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 11.aseprite": {
+    "frame": { "x": 180, "y": 46, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 12.aseprite": {
+    "frame": { "x": 240, "y": 46, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 200
+   },
+   "aracnoid 13.aseprite": {
+    "frame": { "x": 300, "y": 46, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 14.aseprite": {
+    "frame": { "x": 360, "y": 46, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 15.aseprite": {
+    "frame": { "x": 420, "y": 46, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 16.aseprite": {
+    "frame": { "x": 0, "y": 92, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 17.aseprite": {
+    "frame": { "x": 60, "y": 92, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 18.aseprite": {
+    "frame": { "x": 120, "y": 92, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 19.aseprite": {
+    "frame": { "x": 180, "y": 92, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 20.aseprite": {
+    "frame": { "x": 240, "y": 92, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   },
+   "aracnoid 21.aseprite": {
+    "frame": { "x": 300, "y": 92, "w": 60, "h": 46 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 60, "h": 46 },
+    "sourceSize": { "w": 60, "h": 46 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.12.1",
+  "image": "aracnoid.png",
+  "format": "RGBA8888",
+  "size": { "w": 512, "h": 256 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Idle", "from": 0, "to": 1, "direction": "forward" },
+   { "name": "Walk", "from": 2, "to": 7, "direction": "forward" },
+   { "name": "StartJump", "from": 8, "to": 10, "direction": "forward" },
+   { "name": "Jump", "from": 11, "to": 14, "direction": "forward" },
+   { "name": "JumpPeak", "from": 15, "to": 16, "direction": "forward" },
+   { "name": "Fall", "from": 17, "to": 18, "direction": "forward" },
+   { "name": "Land", "from": 19, "to": 21, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "last leg", "opacity": 255, "blendMode": "normal" },
+   { "name": "backer leg", "opacity": 255, "blendMode": "normal" },
+   { "name": "back leg", "opacity": 255, "blendMode": "normal" },
+   { "name": "body Copy", "opacity": 255, "blendMode": "normal" },
+   { "name": "eye", "opacity": 255, "blendMode": "normal" },
+   { "name": "front leg", "opacity": 255, "blendMode": "normal" },
+   { "name": "fronter leg", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
